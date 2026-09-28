@@ -1,0 +1,532 @@
+{
+  "frames": {
+    "idle": {
+      "file": "idle.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        29,
+        16,
+        19,
+        23
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    },
+    "blink": {
+      "file": "blink.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        29,
+        16,
+        19,
+        23
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    },
+    "walk1": {
+      "file": "walk1.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        29,
+        16,
+        19,
+        23
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    },
+    "walk2": {
+      "file": "walk2.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        29,
+        16,
+        19,
+        23
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    },
+    "walk3": {
+      "file": "walk3.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        29,
+        16,
+        19,
+        23
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    },
+    "walk4": {
+      "file": "walk4.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        29,
+        16,
+        19,
+        23
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    },
+    "beg": {
+      "file": "beg.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        29,
+        29,
+        25,
+        19
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    },
+    "pet": {
+      "file": "pet.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        29,
+        29,
+        25,
+        19
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    },
+    "sing1": {
+      "file": "sing1.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        29,
+        16,
+        19,
+        23
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    },
+    "sing2": {
+      "file": "sing2.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        29,
+        16,
+        19,
+        23
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    },
+    "sleep": {
+      "file": "sleep.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        22,
+        28,
+        22,
+        15
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    },
+    "stretch1": {
+      "file": "stretch1.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        29,
+        16,
+        19,
+        23
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    },
+    "stretch2": {
+      "file": "stretch2.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        29,
+        16,
+        19,
+        23
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    },
+    "look": {
+      "file": "look.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        24,
+        18,
+        21,
+        23
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    },
+    "lift": {
+      "file": "lift.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        29,
+        16,
+        19,
+        23
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    },
+    "bite": {
+      "file": "bite.png",
+      "foot": [
+        32,
+        56
+      ],
+      "head": [
+        32,
+        28,
+        22,
+        21
+      ],
+      "body": [
+        17,
+        32,
+        28,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        23,
+        10
+      ]
+    }
+  },
+  "clips": {
+    "Idle": {
+      "frames": [
+        {
+          "name": "idle",
+          "milliseconds": 2700
+        },
+        {
+          "name": "blink",
+          "milliseconds": 140
+        }
+      ],
+      "loop": true
+    },
+    "Walk": {
+      "frames": [
+        {
+          "name": "walk1",
+          "milliseconds": 140
+        },
+        {
+          "name": "walk2",
+          "milliseconds": 140
+        },
+        {
+          "name": "walk3",
+          "milliseconds": 140
+        },
+        {
+          "name": "walk4",
+          "milliseconds": 140
+        }
+      ],
+      "loop": true
+    },
+    "Beg": {
+      "frames": [
+        {
+          "name": "beg",
+          "milliseconds": 600
+        }
+      ],
+      "loop": true
+    },
+    "Pet": {
+      "frames": [
+        {
+          "name": "pet",
+          "milliseconds": 450
+        },
+        {
+          "name": "beg",
+          "milliseconds": 120
+        },
+        {
+          "name": "pet",
+          "milliseconds": 450
+        }
+      ],
+      "loop": true
+    },
+    "Sing": {
+      "frames": [
+        {
+          "name": "sing1",
+          "milliseconds": 220
+        },
+        {
+          "name": "sing2",
+          "milliseconds": 240
+        }
+      ],
+      "loop": true
+    },
+    "Sleep": {
+      "frames": [
+        {
+          "name": "sleep",
+          "milliseconds": 1000
+        }
+      ],
+      "loop": true
+    },
+    "Stretch": {
+      "frames": [
+        {
+          "name": "stretch1",
+          "milliseconds": 350
+        },
+        {
+          "name": "stretch2",
+          "milliseconds": 400
+        },
+        {
+          "name": "stretch1",
+          "milliseconds": 250
+        }
+      ],
+      "loop": false
+    },
+    "Look": {
+      "frames": [
+        {
+          "name": "look",
+          "milliseconds": 500
+        }
+      ],
+      "loop": true
+    },
+    "Lift": {
+      "frames": [
+        {
+          "name": "lift",
+          "milliseconds": 500
+        }
+      ],
+      "loop": true
+    },
+    "Bite": {
+      "frames": [
+        {
+          "name": "bite",
+          "milliseconds": 400
+        }
+      ],
+      "loop": false
+    }
+  }
+}
