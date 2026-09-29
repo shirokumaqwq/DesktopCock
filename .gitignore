@@ -3,3 +3,27 @@
 dist/
 .vs/
 tools/dotnet-install.ps1
+
+# Local tests, verification and generated previews stay on the developer machine.
+tests/
+artifacts/
+VALIDATION.md
+tools/soak.ps1
+**/__pycache__/
+src/DesktopCock/Diagnostics/PetWindow.Verification.cs
+src/DesktopCock/Diagnostics/Native.Diagnostics.cs
+art/archive/
+art/previews/
+art/model/drafts/
+art/model/ThreeViews.png
+art/model/TurnAngles.png
+art/actions/idle.png
+art/actions/walk.png
+art/actions/Bite/
+art/actions/Lift/
+art/actions/Pet/
+art/actions/Sing/
+art/actions/Stretch/
+art/interaction/hands/*
+!art/interaction/hands/glove-perch-pixel-v2.png
+!art/interaction/hands/glove-pet-pixel-v2.png

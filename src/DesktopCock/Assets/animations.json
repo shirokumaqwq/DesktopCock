@@ -1,416 +1,3291 @@
 {
   "frames": {
     "idle": {
-      "file": "idle.png",
+      "file": "Idle/idle.png",
       "foot": [
-        32,
+        33,
         56
       ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "selection": "canonical side; shared 41px side scale"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "323696e3aacfe90d2cd0c399a4c30cbfcd1a18c5ea28146008289bee73178c5d",
       "head": [
-        29,
+        30,
+        15,
         16,
-        19,
-        23
+        24
       ],
       "body": [
         17,
         32,
-        28,
+        32,
         22
       ],
       "feet": [
         23,
         48,
-        23,
+        27,
         10
-      ]
+      ],
+      "dependencies": []
     },
-    "blink": {
-      "file": "blink.png",
+    "idle-quarter": {
+      "file": "Idle/idle-quarter.png",
       "foot": [
         32,
         56
       ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "selection": "canonical quarter; shared 41px side scale"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "0f7103e1491704382aa70c9c9b3062519391ec74d9e36e5caa087b65f72eea01",
       "head": [
-        29,
+        27,
+        14,
+        17,
+        25
+      ],
+      "body": [
         16,
-        19,
-        23
-      ],
-      "body": [
-        17,
         32,
-        28,
+        32,
         22
       ],
       "feet": [
-        23,
-        48,
-        23,
-        10
-      ]
-    },
-    "walk1": {
-      "file": "walk1.png",
-      "foot": [
-        32,
-        56
-      ],
-      "head": [
-        29,
-        16,
-        19,
-        23
-      ],
-      "body": [
-        17,
-        32,
-        28,
-        22
-      ],
-      "feet": [
-        23,
-        48,
-        23,
-        10
-      ]
-    },
-    "walk2": {
-      "file": "walk2.png",
-      "foot": [
-        32,
-        56
-      ],
-      "head": [
-        29,
-        16,
-        19,
-        23
-      ],
-      "body": [
-        17,
-        32,
-        28,
-        22
-      ],
-      "feet": [
-        23,
-        48,
-        23,
-        10
-      ]
-    },
-    "walk3": {
-      "file": "walk3.png",
-      "foot": [
-        32,
-        56
-      ],
-      "head": [
-        29,
-        16,
-        19,
-        23
-      ],
-      "body": [
-        17,
-        32,
-        28,
-        22
-      ],
-      "feet": [
-        23,
-        48,
-        23,
-        10
-      ]
-    },
-    "walk4": {
-      "file": "walk4.png",
-      "foot": [
-        32,
-        56
-      ],
-      "head": [
-        29,
-        16,
-        19,
-        23
-      ],
-      "body": [
-        17,
-        32,
-        28,
-        22
-      ],
-      "feet": [
-        23,
-        48,
-        23,
-        10
-      ]
-    },
-    "beg": {
-      "file": "beg.png",
-      "foot": [
-        32,
-        56
-      ],
-      "head": [
-        29,
-        29,
-        25,
-        19
-      ],
-      "body": [
-        17,
-        32,
-        28,
-        22
-      ],
-      "feet": [
-        23,
-        48,
-        23,
-        10
-      ]
-    },
-    "pet": {
-      "file": "pet.png",
-      "foot": [
-        32,
-        56
-      ],
-      "head": [
-        29,
-        29,
-        25,
-        19
-      ],
-      "body": [
-        17,
-        32,
-        28,
-        22
-      ],
-      "feet": [
-        23,
-        48,
-        23,
-        10
-      ]
-    },
-    "sing1": {
-      "file": "sing1.png",
-      "foot": [
-        32,
-        56
-      ],
-      "head": [
-        29,
-        16,
-        19,
-        23
-      ],
-      "body": [
-        17,
-        32,
-        28,
-        22
-      ],
-      "feet": [
-        23,
-        48,
-        23,
-        10
-      ]
-    },
-    "sing2": {
-      "file": "sing2.png",
-      "foot": [
-        32,
-        56
-      ],
-      "head": [
-        29,
-        16,
-        19,
-        23
-      ],
-      "body": [
-        17,
-        32,
-        28,
-        22
-      ],
-      "feet": [
-        23,
-        48,
-        23,
-        10
-      ]
-    },
-    "sleep": {
-      "file": "sleep.png",
-      "foot": [
-        32,
-        56
-      ],
-      "head": [
         22,
-        28,
+        48,
+        27,
+        10
+      ],
+      "dependencies": []
+    },
+    "idle-front": {
+      "file": "Idle/idle-front.png",
+      "foot": [
+        32,
+        56
+      ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "selection": "canonical front; shared 41px side scale"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "e3a1a737dac5550a7e07df2c2f6c6350f858477fa6280cbf95c5b6fd3a906ed0",
+      "head": [
+        25,
+        14,
+        16,
+        25
+      ],
+      "body": [
+        16,
+        32,
+        32,
+        22
+      ],
+      "feet": [
         22,
-        15
-      ],
-      "body": [
-        17,
-        32,
-        28,
-        22
-      ],
-      "feet": [
-        23,
         48,
-        23,
+        27,
         10
-      ]
+      ],
+      "dependencies": []
     },
-    "stretch1": {
-      "file": "stretch1.png",
+    "idle-front-blink": {
+      "file": "Idle/idle-front-blink.png",
       "foot": [
         32,
         56
       ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "selection": "canonical front-blink; shared 41px side scale"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "9035a79868e8cd05d7c060b9a229808ee1f83587a15ee007e16823501228a466",
       "head": [
-        29,
+        25,
+        14,
         16,
-        19,
-        23
+        25
       ],
       "body": [
-        17,
+        16,
         32,
-        28,
+        32,
         22
       ],
       "feet": [
-        23,
+        22,
         48,
-        23,
+        27,
         10
-      ]
+      ],
+      "dependencies": []
     },
-    "stretch2": {
-      "file": "stretch2.png",
+    "look-back": {
+      "file": "Look/look-back.png",
       "foot": [
-        32,
+        35,
         56
       ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "selection": "canonical rear; shared 41px side scale"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "94802469683c6f29dfb5cda28e5f5bcd0135506ef118ca1cc5fb016d94710c02",
       "head": [
-        29,
-        16,
+        27,
+        15,
         19,
         23
       ],
       "body": [
-        17,
+        19,
         32,
-        28,
+        32,
         22
       ],
       "feet": [
-        23,
+        25,
         48,
-        23,
+        27,
         10
-      ]
+      ],
+      "dependencies": []
     },
     "look": {
-      "file": "look.png",
+      "file": "Look/look.png",
       "foot": [
-        32,
+        33,
         56
       ],
+      "origin": {
+        "source": "art/actions/look.png",
+        "selection": "3x2 cell 1",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "323696e3aacfe90d2cd0c399a4c30cbfcd1a18c5ea28146008289bee73178c5d",
       "head": [
-        24,
-        18,
-        21,
-        23
-      ],
-      "body": [
-        17,
-        32,
-        28,
-        22
-      ],
-      "feet": [
-        23,
-        48,
-        23,
-        10
-      ]
-    },
-    "lift": {
-      "file": "lift.png",
-      "foot": [
-        32,
-        56
-      ],
-      "head": [
-        29,
+        30,
+        15,
         16,
-        19,
-        23
+        24
       ],
       "body": [
         17,
         32,
-        28,
+        32,
         22
       ],
       "feet": [
         23,
         48,
-        23,
+        27,
         10
+      ],
+      "composition": {
+        "headFrom": "idle",
+        "layers": [
+          {
+            "frame": "idle",
+            "crop": [
+              0,
+              0,
+              64,
+              64
+            ],
+            "at": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "dependencies": [
+        {
+          "kind": "reuse",
+          "frame": "idle",
+          "crop": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "at": [
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "hit-region",
+          "frame": "idle"
+        }
       ]
     },
-    "bite": {
-      "file": "bite.png",
+    "look-front": {
+      "file": "Look/look-front.png",
       "foot": [
         32,
         56
       ],
+      "origin": {
+        "source": "art/actions/look.png",
+        "selection": "3x2 cell 2",
+        "scaleReference": null,
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "f050eeb0dc5cb5abaaf254c1f9215e5b946e0d94c2dc11206f5de710180f526b",
       "head": [
+        27,
+        17,
+        16,
+        22
+      ],
+      "body": [
+        16,
         32,
-        28,
+        32,
+        22
+      ],
+      "feet": [
         22,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "palette",
+          "frame": "idle"
+        },
+        {
+          "kind": "review",
+          "source": "art/model/model-sheet.png"
+        }
+      ]
+    },
+    "look-up-diagonal": {
+      "file": "Look/look-up-diagonal.png",
+      "foot": [
+        32,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/look.png",
+        "selection": "3x2 cell 4",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "7afec92a2bac5520d885a779406b416435af64f9448d92e86ef8ada81be078b4",
+      "head": [
+        22,
+        17,
+        21,
         21
       ],
       "body": [
+        16,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        22,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "review",
+          "source": "art/model/model-sheet.png"
+        }
+      ]
+    },
+    "look-up-front": {
+      "file": "Look/look-up-front.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/look.png",
+        "selection": "3x2 cell 5",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "b4a340ac442aaa3b10a6d0aa19577b250c26571e039a71f5d989ff4007d8198c",
+      "head": [
+        22,
+        15,
+        19,
+        22
+      ],
+      "body": [
         17,
         32,
-        28,
+        32,
         22
       ],
       "feet": [
         23,
         48,
-        23,
+        27,
         10
+      ],
+      "dependencies": [
+        {
+          "kind": "review",
+          "source": "art/model/model-sheet.png"
+        }
       ]
+    },
+    "look-up-back": {
+      "file": "Look/look-up-back.png",
+      "foot": [
+        35,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/look.png",
+        "selection": "3x2 cell 6",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "d66894f953add9f590d254515b14e6ce47c98a6a4ff3adcf148fd707b16e5780",
+      "head": [
+        27,
+        17,
+        20,
+        20
+      ],
+      "body": [
+        19,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        25,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "review",
+          "source": "art/model/model-sheet.png"
+        }
+      ]
+    },
+    "turn-quarter-step": {
+      "file": "Turn/turn-quarter-step.png",
+      "foot": [
+        34,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/turn.png",
+        "selection": "2x2 cell 1",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "e7e443550a6c63e8b4a783664f582a6e531207f5d826f7ca55998d1b7b7b5eab",
+      "head": [
+        27,
+        14,
+        17,
+        25
+      ],
+      "body": [
+        18,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        24,
+        48,
+        27,
+        10
+      ],
+      "composition": {
+        "headFrom": "idle-quarter",
+        "layers": [
+          {
+            "frame": "idle-quarter",
+            "crop": [
+              0,
+              0,
+              64,
+              50
+            ],
+            "at": [
+              0,
+              0
+            ]
+          },
+          {
+            "frame": "idle-quarter",
+            "crop": [
+              0,
+              50,
+              22,
+              64
+            ],
+            "at": [
+              0,
+              50
+            ]
+          },
+          {
+            "frame": "idle-quarter",
+            "crop": [
+              47,
+              50,
+              64,
+              64
+            ],
+            "at": [
+              47,
+              50
+            ]
+          },
+          {
+            "frame": "turn-quarter-step",
+            "crop": [
+              22,
+              50,
+              47,
+              64
+            ],
+            "at": [
+              22,
+              50
+            ]
+          }
+        ]
+      },
+      "dependencies": [
+        {
+          "kind": "composition",
+          "frame": "idle-quarter",
+          "crop": [
+            0,
+            0,
+            64,
+            50
+          ],
+          "at": [
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "composition",
+          "frame": "idle-quarter",
+          "crop": [
+            0,
+            50,
+            22,
+            64
+          ],
+          "at": [
+            0,
+            50
+          ]
+        },
+        {
+          "kind": "composition",
+          "frame": "idle-quarter",
+          "crop": [
+            47,
+            50,
+            64,
+            64
+          ],
+          "at": [
+            47,
+            50
+          ]
+        },
+        {
+          "kind": "composition",
+          "frame": "turn-quarter-step",
+          "crop": [
+            22,
+            50,
+            47,
+            64
+          ],
+          "at": [
+            22,
+            50
+          ]
+        },
+        {
+          "kind": "hit-region",
+          "frame": "idle-quarter"
+        }
+      ]
+    },
+    "turn-front-a": {
+      "file": "Turn/turn-front-a.png",
+      "foot": [
+        32,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/turn.png",
+        "selection": "2x2 cell 2",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "f00141512e7f9630db3e12c8ce080f0c1ab9cb4bc8248fa53c2b8d9880412164",
+      "head": [
+        25,
+        14,
+        16,
+        25
+      ],
+      "body": [
+        16,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        22,
+        48,
+        27,
+        10
+      ],
+      "composition": {
+        "headFrom": "idle-front",
+        "layers": [
+          {
+            "frame": "idle-front",
+            "crop": [
+              0,
+              0,
+              64,
+              50
+            ],
+            "at": [
+              0,
+              0
+            ]
+          },
+          {
+            "frame": "idle-front",
+            "crop": [
+              0,
+              50,
+              22,
+              64
+            ],
+            "at": [
+              0,
+              50
+            ]
+          },
+          {
+            "frame": "idle-front",
+            "crop": [
+              47,
+              50,
+              64,
+              64
+            ],
+            "at": [
+              47,
+              50
+            ]
+          },
+          {
+            "frame": "turn-front-a",
+            "crop": [
+              22,
+              50,
+              47,
+              64
+            ],
+            "at": [
+              22,
+              50
+            ]
+          }
+        ]
+      },
+      "dependencies": [
+        {
+          "kind": "composition",
+          "frame": "idle-front",
+          "crop": [
+            0,
+            0,
+            64,
+            50
+          ],
+          "at": [
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "composition",
+          "frame": "idle-front",
+          "crop": [
+            0,
+            50,
+            22,
+            64
+          ],
+          "at": [
+            0,
+            50
+          ]
+        },
+        {
+          "kind": "composition",
+          "frame": "idle-front",
+          "crop": [
+            47,
+            50,
+            64,
+            64
+          ],
+          "at": [
+            47,
+            50
+          ]
+        },
+        {
+          "kind": "composition",
+          "frame": "turn-front-a",
+          "crop": [
+            22,
+            50,
+            47,
+            64
+          ],
+          "at": [
+            22,
+            50
+          ]
+        },
+        {
+          "kind": "hit-region",
+          "frame": "idle-front"
+        }
+      ]
+    },
+    "turn-front-b": {
+      "file": "Turn/turn-front-b.png",
+      "foot": [
+        32,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/turn.png",
+        "selection": "2x2 cell 3",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "6c7f99c96658aef00e795d2c6f3d00b3256306c8df982f39829f23f3f600d29f",
+      "head": [
+        25,
+        14,
+        16,
+        25
+      ],
+      "body": [
+        16,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        22,
+        48,
+        27,
+        10
+      ],
+      "composition": {
+        "headFrom": "idle-front",
+        "layers": [
+          {
+            "frame": "idle-front",
+            "crop": [
+              0,
+              0,
+              64,
+              50
+            ],
+            "at": [
+              0,
+              0
+            ]
+          },
+          {
+            "frame": "idle-front",
+            "crop": [
+              0,
+              50,
+              22,
+              64
+            ],
+            "at": [
+              0,
+              50
+            ]
+          },
+          {
+            "frame": "idle-front",
+            "crop": [
+              47,
+              50,
+              64,
+              64
+            ],
+            "at": [
+              47,
+              50
+            ]
+          },
+          {
+            "frame": "turn-front-b",
+            "crop": [
+              22,
+              50,
+              47,
+              64
+            ],
+            "at": [
+              22,
+              50
+            ]
+          }
+        ]
+      },
+      "dependencies": [
+        {
+          "kind": "composition",
+          "frame": "idle-front",
+          "crop": [
+            0,
+            0,
+            64,
+            50
+          ],
+          "at": [
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "composition",
+          "frame": "idle-front",
+          "crop": [
+            0,
+            50,
+            22,
+            64
+          ],
+          "at": [
+            0,
+            50
+          ]
+        },
+        {
+          "kind": "composition",
+          "frame": "idle-front",
+          "crop": [
+            47,
+            50,
+            64,
+            64
+          ],
+          "at": [
+            47,
+            50
+          ]
+        },
+        {
+          "kind": "composition",
+          "frame": "turn-front-b",
+          "crop": [
+            22,
+            50,
+            47,
+            64
+          ],
+          "at": [
+            22,
+            50
+          ]
+        },
+        {
+          "kind": "hit-region",
+          "frame": "idle-front"
+        }
+      ]
+    },
+    "turn-quarter-settle": {
+      "file": "Turn/turn-quarter-settle.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/turn.png",
+        "selection": "2x2 cell 4",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "6dc3d61e11af926d6c18f948386c845316ddf77b82e962bace41a58c79797095",
+      "head": [
+        27,
+        14,
+        17,
+        25
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "composition": {
+        "headFrom": "idle-quarter",
+        "layers": [
+          {
+            "frame": "idle-quarter",
+            "crop": [
+              0,
+              0,
+              64,
+              50
+            ],
+            "at": [
+              0,
+              0
+            ]
+          },
+          {
+            "frame": "idle-quarter",
+            "crop": [
+              0,
+              50,
+              22,
+              64
+            ],
+            "at": [
+              0,
+              50
+            ]
+          },
+          {
+            "frame": "idle-quarter",
+            "crop": [
+              47,
+              50,
+              64,
+              64
+            ],
+            "at": [
+              47,
+              50
+            ]
+          },
+          {
+            "frame": "turn-quarter-settle",
+            "crop": [
+              22,
+              50,
+              47,
+              64
+            ],
+            "at": [
+              22,
+              50
+            ]
+          }
+        ]
+      },
+      "dependencies": [
+        {
+          "kind": "composition",
+          "frame": "idle-quarter",
+          "crop": [
+            0,
+            0,
+            64,
+            50
+          ],
+          "at": [
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "composition",
+          "frame": "idle-quarter",
+          "crop": [
+            0,
+            50,
+            22,
+            64
+          ],
+          "at": [
+            0,
+            50
+          ]
+        },
+        {
+          "kind": "composition",
+          "frame": "idle-quarter",
+          "crop": [
+            47,
+            50,
+            64,
+            64
+          ],
+          "at": [
+            47,
+            50
+          ]
+        },
+        {
+          "kind": "composition",
+          "frame": "turn-quarter-settle",
+          "crop": [
+            22,
+            50,
+            47,
+            64
+          ],
+          "at": [
+            22,
+            50
+          ]
+        },
+        {
+          "kind": "hit-region",
+          "frame": "idle-quarter"
+        }
+      ]
+    },
+    "beg1": {
+      "file": "Beg/beg1.png",
+      "foot": [
+        34,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/beg.png",
+        "selection": "2x2 cell 1",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "f78ca181c78a925b2a66f71b6121d5bb38db2168422a50bf5a385de0b87c7363",
+      "head": [
+        36,
+        21,
+        16,
+        21
+      ],
+      "body": [
+        18,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        24,
+        48,
+        27,
+        10
+      ],
+      "dependencies": []
+    },
+    "beg2": {
+      "file": "Beg/beg2.png",
+      "foot": [
+        34,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/beg.png",
+        "selection": "2x2 cell 2",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "6739960f71b87664c897c4306809ea65cefb3fc05a36afed6c4ebfdcc56e5034",
+      "head": [
+        36,
+        26,
+        16,
+        20
+      ],
+      "body": [
+        18,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        24,
+        48,
+        27,
+        10
+      ],
+      "dependencies": []
+    },
+    "beg3": {
+      "file": "Beg/beg3.png",
+      "foot": [
+        34,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/beg.png",
+        "selection": "2x2 cell 3",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "9f6fe0fb46b095ee483c08ef83548f7427794025563e4aa006c1e5b537857a08",
+      "head": [
+        40,
+        30,
+        15,
+        18
+      ],
+      "body": [
+        18,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        24,
+        48,
+        27,
+        10
+      ],
+      "dependencies": []
+    },
+    "pet": {
+      "file": "Pet/pet.png",
+      "foot": [
+        34,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/pet.png",
+        "selection": "2x2 cell 1",
+        "scaleReference": "Beg"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "4541ac33ffeca44ba5dfc366685d6639163f0f6cbeaf04161d0338358db359b5",
+      "head": [
+        36,
+        22,
+        16,
+        20
+      ],
+      "body": [
+        18,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        24,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "scale",
+          "source": "art/actions/beg.png"
+        },
+        {
+          "kind": "review",
+          "source": "art/actions/beg.png"
+        }
+      ]
+    },
+    "pet2": {
+      "file": "Pet/pet2.png",
+      "foot": [
+        34,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/pet.png",
+        "selection": "2x2 cell 2",
+        "scaleReference": "Beg"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "0be1972bd0a619eb18ca7c6ef8863a00d94e90478276ae722682ca010ea9dc16",
+      "head": [
+        36,
+        26,
+        16,
+        20
+      ],
+      "body": [
+        18,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        24,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "scale",
+          "source": "art/actions/beg.png"
+        },
+        {
+          "kind": "review",
+          "source": "art/actions/beg.png"
+        }
+      ]
+    },
+    "pet3": {
+      "file": "Pet/pet3.png",
+      "foot": [
+        34,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/pet.png",
+        "selection": "2x2 cell 3",
+        "scaleReference": "Beg"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "8cf74d1e84d1d6f9f94255ce1f307394206311003b13ad789260f6a73a0af1a9",
+      "head": [
+        40,
+        31,
+        15,
+        18
+      ],
+      "body": [
+        18,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        24,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "scale",
+          "source": "art/actions/beg.png"
+        },
+        {
+          "kind": "review",
+          "source": "art/actions/beg.png"
+        }
+      ]
+    },
+    "sleep1": {
+      "file": "Sleep/sleep1.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/sleep.png",
+        "selection": "2x2 cell 1",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "d098f7d9c4cc65e372309bc7426932ac76be974dfedf5b14a8ab8460ad54b94b",
+      "head": [
+        29,
+        24,
+        23,
+        19
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": []
+    },
+    "sleep2": {
+      "file": "Sleep/sleep2.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/sleep.png",
+        "selection": "2x2 cell 2",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "8b47f7647609308a7844e1bd96936d4bffbc396355ac52e38226ce251db03516",
+      "head": [
+        29,
+        24,
+        23,
+        19
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": []
+    },
+    "walk1": {
+      "file": "Walk/walk1.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "additionalSources": [
+          "art/actions/walk-rig.png"
+        ],
+        "selection": "canonical side torso + rig far/near feet; stride step 1"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "37094b3d07c84cec7014029f633a7ca62a67957d0da7b109db6dcf5eea9d5d63",
+      "head": [
+        30,
+        15,
+        16,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/actions/walk-rig.png"
+        }
+      ]
+    },
+    "walk2": {
+      "file": "Walk/walk2.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "additionalSources": [
+          "art/actions/walk-rig.png"
+        ],
+        "selection": "canonical side torso + rig far/near feet; stride step 2"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "8511be537a6fbc3cb4cd68ea4ac238709ca38343ad48b02a7888260642ad7eca",
+      "head": [
+        30,
+        15,
+        16,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/actions/walk-rig.png"
+        }
+      ]
+    },
+    "walk3": {
+      "file": "Walk/walk3.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "additionalSources": [
+          "art/actions/walk-rig.png"
+        ],
+        "selection": "canonical side torso + rig far/near feet; stride step 3"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "6fd376d15b045b1829a205d4c83c790a1966c077bc4560dc0816b1fed3fcaf94",
+      "head": [
+        30,
+        14,
+        16,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/actions/walk-rig.png"
+        }
+      ]
+    },
+    "walk4": {
+      "file": "Walk/walk4.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "additionalSources": [
+          "art/actions/walk-rig.png"
+        ],
+        "selection": "canonical side torso + rig far/near feet; stride step 4"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "7c721cf595fc4a4f07bb0f971db48ad2811ca525580c0c47a4e4d33244fa8f95",
+      "head": [
+        30,
+        14,
+        16,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/actions/walk-rig.png"
+        }
+      ]
+    },
+    "walk5": {
+      "file": "Walk/walk5.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "additionalSources": [
+          "art/actions/walk-rig.png"
+        ],
+        "selection": "canonical side torso + rig far/near feet; stride step 5"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "991747d562839d8e913b538c41031005a73298909f0407fad48980030d64b15f",
+      "head": [
+        30,
+        15,
+        16,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/actions/walk-rig.png"
+        }
+      ]
+    },
+    "walk6": {
+      "file": "Walk/walk6.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "additionalSources": [
+          "art/actions/walk-rig.png"
+        ],
+        "selection": "canonical side torso + rig far/near feet; stride step 6"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "4e0ab2399dacbaf616e7ba6633c544fcb7d8a4db03f1bd40c1a67c942f294a8f",
+      "head": [
+        30,
+        15,
+        16,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/actions/walk-rig.png"
+        }
+      ]
+    },
+    "walk7": {
+      "file": "Walk/walk7.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "additionalSources": [
+          "art/actions/walk-rig.png"
+        ],
+        "selection": "canonical side torso + rig far/near feet; stride step 7"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "778b6df92d347ea50a905c151635de08db10fadc07ac410e7b29460d0b9169a2",
+      "head": [
+        30,
+        15,
+        16,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/actions/walk-rig.png"
+        }
+      ]
+    },
+    "walk8": {
+      "file": "Walk/walk8.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "additionalSources": [
+          "art/actions/walk-rig.png"
+        ],
+        "selection": "canonical side torso + rig far/near feet; stride step 8"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "faad11428eac5112de8ab5d6d3f54b3ecb99906d60162934845ae1e92e4bea21",
+      "head": [
+        30,
+        15,
+        16,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/actions/walk-rig.png"
+        }
+      ]
+    },
+    "walk9": {
+      "file": "Walk/walk9.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "additionalSources": [
+          "art/actions/walk-rig.png"
+        ],
+        "selection": "canonical side torso + rig far/near feet; stride step 9"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "45a2cfd06e861d5f783954b35fbb95db24d5a30ea2cf4e25e53771efe7141b2b",
+      "head": [
+        30,
+        14,
+        16,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/actions/walk-rig.png"
+        }
+      ]
+    },
+    "walk10": {
+      "file": "Walk/walk10.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "additionalSources": [
+          "art/actions/walk-rig.png"
+        ],
+        "selection": "canonical side torso + rig far/near feet; stride step 10"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "5909537ed9e2a5363050ca6dd5ea3c66fd9b90c9ac1eaa7d335aad56e7f2529e",
+      "head": [
+        30,
+        14,
+        16,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/actions/walk-rig.png"
+        }
+      ]
+    },
+    "walk11": {
+      "file": "Walk/walk11.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "additionalSources": [
+          "art/actions/walk-rig.png"
+        ],
+        "selection": "canonical side torso + rig far/near feet; stride step 11"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "20519d35e78cce5ee4e5b2947f780517ae5155282de92ad4f5660edebc0fa554",
+      "head": [
+        30,
+        15,
+        16,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/actions/walk-rig.png"
+        }
+      ]
+    },
+    "walk12": {
+      "file": "Walk/walk12.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "additionalSources": [
+          "art/actions/walk-rig.png"
+        ],
+        "selection": "canonical side torso + rig far/near feet; stride step 12"
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "ec441a867a4458e81ee3e2a03dff0597e11a68f683a92bed2eb2847433ec9ecc",
+      "head": [
+        30,
+        15,
+        16,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/actions/walk-rig.png"
+        }
+      ]
+    },
+    "flight-takeoff": {
+      "file": "Flight/flight-takeoff.png",
+      "foot": [
+        49,
+        72
+      ],
+      "origin": {
+        "source": "art/actions/flight.png",
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "selection": "3x2 cell 1; canonical side head registration",
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 96,
+      "height": 96,
+      "sha256": "f9e71f9ec84fed69fac885e1aa47ce7e6c0ae4ccba8969c944ecdfd871190a38",
+      "head": [
+        45,
+        31,
+        16,
+        23
+      ],
+      "body": [
+        33,
+        48,
+        32,
+        22
+      ],
+      "feet": [
+        39,
+        64,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        },
+        {
+          "kind": "review",
+          "source": "art/model/model-sheet.png"
+        }
+      ]
+    },
+    "flight-up": {
+      "file": "Flight/flight-up.png",
+      "foot": [
+        49,
+        72
+      ],
+      "origin": {
+        "source": "art/actions/flight.png",
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "selection": "3x2 cell 2; canonical side head registration",
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 96,
+      "height": 96,
+      "sha256": "45f7b400ab0f72c1f3fdbc5f5f4c0395911af34d3ca72c028c96d4cb8c60ea6e",
+      "head": [
+        46,
+        32,
+        17,
+        23
+      ],
+      "body": [
+        33,
+        48,
+        32,
+        22
+      ],
+      "feet": [
+        39,
+        64,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        },
+        {
+          "kind": "review",
+          "source": "art/model/model-sheet.png"
+        }
+      ]
+    },
+    "flight-mid": {
+      "file": "Flight/flight-mid.png",
+      "foot": [
+        49,
+        72
+      ],
+      "origin": {
+        "source": "art/actions/flight.png",
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "selection": "3x2 cell 3; canonical side head registration",
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 96,
+      "height": 96,
+      "sha256": "c2c713442eb1fb6f5ee6f3a9dbeb6c8eb04a090a931feef66f7c4030abc88c16",
+      "head": [
+        46,
+        32,
+        16,
+        22
+      ],
+      "body": [
+        33,
+        48,
+        32,
+        22
+      ],
+      "feet": [
+        39,
+        64,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        },
+        {
+          "kind": "review",
+          "source": "art/model/model-sheet.png"
+        }
+      ]
+    },
+    "flight-down": {
+      "file": "Flight/flight-down.png",
+      "foot": [
+        49,
+        72
+      ],
+      "origin": {
+        "source": "art/actions/flight.png",
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "selection": "3x2 cell 4; canonical side head registration",
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 96,
+      "height": 96,
+      "sha256": "fc980de835811ca1c816fbf05a2c21891864081d448e9f7967bc89f86a3a5567",
+      "head": [
+        45,
+        32,
+        17,
+        22
+      ],
+      "body": [
+        33,
+        48,
+        32,
+        22
+      ],
+      "feet": [
+        39,
+        64,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        },
+        {
+          "kind": "review",
+          "source": "art/model/model-sheet.png"
+        }
+      ]
+    },
+    "flight-brake": {
+      "file": "Flight/flight-brake.png",
+      "foot": [
+        49,
+        72
+      ],
+      "origin": {
+        "source": "art/actions/flight.png",
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "selection": "3x2 cell 5; canonical side head registration",
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 96,
+      "height": 96,
+      "sha256": "b52669db8f424fc00a3769ec4edfb94d2da96b75c6b451a2cdf0cdbc7a29b45e",
+      "head": [
+        45,
+        32,
+        17,
+        22
+      ],
+      "body": [
+        33,
+        48,
+        32,
+        22
+      ],
+      "feet": [
+        39,
+        64,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        },
+        {
+          "kind": "review",
+          "source": "art/model/model-sheet.png"
+        }
+      ]
+    },
+    "flight-settle": {
+      "file": "Flight/flight-settle.png",
+      "foot": [
+        49,
+        72
+      ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "selection": "canonical side at 16px flight inset"
+      },
+      "width": 96,
+      "height": 96,
+      "sha256": "3cfa0a0a0be7b4757b95357810d81f29e21cae5dd7b6755e27ef3732a8a2818b",
+      "head": [
+        46,
+        31,
+        16,
+        24
+      ],
+      "body": [
+        33,
+        48,
+        32,
+        22
+      ],
+      "feet": [
+        39,
+        64,
+        27,
+        10
+      ],
+      "dependencies": []
+    },
+    "flight-front-takeoff": {
+      "file": "Flight/flight-front-takeoff.png",
+      "foot": [
+        48,
+        72
+      ],
+      "origin": {
+        "source": "art/actions/flight-front.png",
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "selection": "3x2 cell 1; canonical front head registration",
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 96,
+      "height": 96,
+      "sha256": "08d9a91ac9ab0bc0a0de2aee6d5069f63cc6ee5fcffd65dad2701235868bda4f",
+      "head": [
+        41,
+        31,
+        16,
+        25
+      ],
+      "body": [
+        32,
+        48,
+        32,
+        22
+      ],
+      "feet": [
+        38,
+        64,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        },
+        {
+          "kind": "review",
+          "source": "art/model/model-sheet.png"
+        }
+      ]
+    },
+    "flight-front-up": {
+      "file": "Flight/flight-front-up.png",
+      "foot": [
+        48,
+        72
+      ],
+      "origin": {
+        "source": "art/actions/flight-front.png",
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "selection": "3x2 cell 2; canonical front head registration",
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 96,
+      "height": 96,
+      "sha256": "a8eb9e20d48dcb8b19545f0fa75ca57917ffaf0f8d852a443acc3af2d60af8b1",
+      "head": [
+        41,
+        30,
+        16,
+        24
+      ],
+      "body": [
+        32,
+        48,
+        32,
+        22
+      ],
+      "feet": [
+        38,
+        64,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        },
+        {
+          "kind": "review",
+          "source": "art/model/model-sheet.png"
+        }
+      ]
+    },
+    "flight-front-mid": {
+      "file": "Flight/flight-front-mid.png",
+      "foot": [
+        48,
+        72
+      ],
+      "origin": {
+        "source": "art/actions/flight-front.png",
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "selection": "3x2 cell 3; canonical front head registration",
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 96,
+      "height": 96,
+      "sha256": "6ca939a740ea9d7e27535c64bef9e0a4e1978cfd90c5faa6f715ebfb4ad62bc4",
+      "head": [
+        41,
+        31,
+        16,
+        25
+      ],
+      "body": [
+        32,
+        48,
+        32,
+        22
+      ],
+      "feet": [
+        38,
+        64,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        },
+        {
+          "kind": "review",
+          "source": "art/model/model-sheet.png"
+        }
+      ]
+    },
+    "flight-front-down": {
+      "file": "Flight/flight-front-down.png",
+      "foot": [
+        48,
+        72
+      ],
+      "origin": {
+        "source": "art/actions/flight-front.png",
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "selection": "3x2 cell 4; canonical front head registration",
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 96,
+      "height": 96,
+      "sha256": "2c9e27cd591c1e4dcc2ff4f64363e844751073332400937eb908fac716cc4959",
+      "head": [
+        41,
+        31,
+        16,
+        24
+      ],
+      "body": [
+        32,
+        48,
+        32,
+        22
+      ],
+      "feet": [
+        38,
+        64,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        },
+        {
+          "kind": "review",
+          "source": "art/model/model-sheet.png"
+        }
+      ]
+    },
+    "flight-front-brake": {
+      "file": "Flight/flight-front-brake.png",
+      "foot": [
+        48,
+        72
+      ],
+      "origin": {
+        "source": "art/actions/flight-front.png",
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "selection": "3x2 cell 5; canonical front head registration",
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 96,
+      "height": 96,
+      "sha256": "5ea78d7030f83c860a772148417448fe79529f93e867e54a02d97018c09464fa",
+      "head": [
+        41,
+        30,
+        17,
+        24
+      ],
+      "body": [
+        32,
+        48,
+        32,
+        22
+      ],
+      "feet": [
+        38,
+        64,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        },
+        {
+          "kind": "review",
+          "source": "art/model/model-sheet.png"
+        }
+      ]
+    },
+    "flight-front-settle": {
+      "file": "Flight/flight-front-settle.png",
+      "foot": [
+        48,
+        72
+      ],
+      "origin": {
+        "source": "art/model/model-sheet.png",
+        "selection": "canonical front at 16px flight inset"
+      },
+      "width": 96,
+      "height": 96,
+      "sha256": "7f7b233c054db1134410d44d82e090083a3e79b65da3a033c9255dd14be8df3a",
+      "head": [
+        41,
+        30,
+        16,
+        25
+      ],
+      "body": [
+        32,
+        48,
+        32,
+        22
+      ],
+      "feet": [
+        38,
+        64,
+        27,
+        10
+      ],
+      "dependencies": []
+    },
+    "sing1": {
+      "file": "Sing/sing1.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/sing.png",
+        "selection": "2x1 cell 1",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "5400181fb369bde5d19008040045bd5e1ea39ae6988062d34f44f4aab3b6f83d",
+      "head": [
+        27,
+        15,
+        17,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": []
+    },
+    "sing2": {
+      "file": "Sing/sing2.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/sing.png",
+        "selection": "2x1 cell 2",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "742f10b1a7e98f8e876ba84f12a35d3eaf55580b7cc874b8b0fac6a00c9a7f3c",
+      "head": [
+        27,
+        15,
+        18,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": []
+    },
+    "stretch1": {
+      "file": "Stretch/stretch1.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/stretch.png",
+        "selection": "4x3 cell 1",
+        "scaleReference": null,
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "323696e3aacfe90d2cd0c399a4c30cbfcd1a18c5ea28146008289bee73178c5d",
+      "head": [
+        30,
+        15,
+        16,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "composition": {
+        "headFrom": "idle",
+        "layers": [
+          {
+            "frame": "idle",
+            "crop": [
+              0,
+              0,
+              64,
+              64
+            ],
+            "at": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "reuse",
+          "frame": "idle",
+          "crop": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "at": [
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "hit-region",
+          "frame": "idle"
+        }
+      ]
+    },
+    "stretch2": {
+      "file": "Stretch/stretch2.png",
+      "foot": [
+        38,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/stretch.png",
+        "selection": "4x3 cell 2",
+        "scaleReference": null,
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "a53e060a252fbe6eabc08510965b5271b2c71542c33aa1a919cafa041645eba8",
+      "head": [
+        34,
+        16,
+        17,
+        23
+      ],
+      "body": [
+        22,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        28,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        }
+      ]
+    },
+    "stretch3": {
+      "file": "Stretch/stretch3.png",
+      "foot": [
+        38,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/stretch.png",
+        "selection": "4x3 cell 3",
+        "scaleReference": null,
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "6d2f55f26e6143da50ecd014d7cbfdab8ad9912ed96469225dd6143ea5537b48",
+      "head": [
+        35,
+        17,
+        17,
+        23
+      ],
+      "body": [
+        22,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        28,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        }
+      ]
+    },
+    "stretch4": {
+      "file": "Stretch/stretch4.png",
+      "foot": [
+        39,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/stretch.png",
+        "selection": "4x3 cell 4",
+        "scaleReference": null,
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "2e49422a363a1442c8ae098a5f5815bdd8bb9c47e28fce12a37688fbe1f84221",
+      "head": [
+        34,
+        18,
+        17,
+        22
+      ],
+      "body": [
+        23,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        29,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        }
+      ]
+    },
+    "stretch5": {
+      "file": "Stretch/stretch5.png",
+      "foot": [
+        38,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/stretch.png",
+        "selection": "4x3 cell 5",
+        "scaleReference": null,
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "8af49456320d359b29c893dce37ad2a533531b2b2906938032111ccdb7d9c089",
+      "head": [
+        36,
+        18,
+        17,
+        22
+      ],
+      "body": [
+        22,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        28,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        }
+      ]
+    },
+    "stretch6": {
+      "file": "Stretch/stretch6.png",
+      "foot": [
+        43,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/stretch.png",
+        "selection": "4x3 cell 6",
+        "scaleReference": null,
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "ce04d9f1a7b5425b3c359e4c7703355c8b2493366f80aa8182c114bb3f8a595a",
+      "head": [
+        40,
+        20,
+        17,
+        22
+      ],
+      "body": [
+        27,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        33,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        }
+      ]
+    },
+    "stretch7": {
+      "file": "Stretch/stretch7.png",
+      "foot": [
+        43,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/stretch.png",
+        "selection": "4x3 cell 7",
+        "scaleReference": null,
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "1df7059cc13eff1c589afb9231a1887260544784e7c644efc4b6a46f25c95080",
+      "head": [
+        40,
+        20,
+        17,
+        22
+      ],
+      "body": [
+        27,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        33,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        }
+      ]
+    },
+    "stretch8": {
+      "file": "Stretch/stretch8.png",
+      "foot": [
+        41,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/stretch.png",
+        "selection": "4x3 cell 8",
+        "scaleReference": null,
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "4c05a0d8517f54e1c6be34d85234eeeee570e0a0cdca6b75216fb7555a1951d5",
+      "head": [
+        36,
+        19,
+        17,
+        22
+      ],
+      "body": [
+        25,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        31,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        }
+      ]
+    },
+    "stretch9": {
+      "file": "Stretch/stretch9.png",
+      "foot": [
+        39,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/stretch.png",
+        "selection": "4x3 cell 9",
+        "scaleReference": null,
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "290c9dba2b77460803e4df0b8b4cf5e6a638a5196f8ca5c1fce6abce3b73a8d0",
+      "head": [
+        35,
+        18,
+        17,
+        22
+      ],
+      "body": [
+        23,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        29,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        }
+      ]
+    },
+    "stretch10": {
+      "file": "Stretch/stretch10.png",
+      "foot": [
+        39,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/stretch.png",
+        "selection": "4x3 cell 10",
+        "scaleReference": null,
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "4952909a4d0801fc71ceed2a0e7372eb13dd2ae3902d02ae55706c21d6ade6bd",
+      "head": [
+        35,
+        16,
+        17,
+        23
+      ],
+      "body": [
+        23,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        29,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        }
+      ]
+    },
+    "stretch11": {
+      "file": "Stretch/stretch11.png",
+      "foot": [
+        38,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/stretch.png",
+        "selection": "4x3 cell 11",
+        "scaleReference": null,
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ],
+        "paletteReference": "idle",
+        "paletteRegions": [
+          "head",
+          "cheek"
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "d4a27b6cb1fb5c87634c567007f5ef1ff824868c97c2669133871eeeeb5fced8",
+      "head": [
+        34,
+        16,
+        16,
+        23
+      ],
+      "body": [
+        22,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        28,
+        48,
+        27,
+        10
+      ],
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "palette",
+          "frame": "idle"
+        }
+      ]
+    },
+    "stretch12": {
+      "file": "Stretch/stretch12.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/stretch.png",
+        "selection": "4x3 cell 12",
+        "scaleReference": null,
+        "additionalSources": [
+          "art/model/model-sheet.png"
+        ]
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "323696e3aacfe90d2cd0c399a4c30cbfcd1a18c5ea28146008289bee73178c5d",
+      "head": [
+        30,
+        15,
+        16,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "composition": {
+        "headFrom": "idle",
+        "layers": [
+          {
+            "frame": "idle",
+            "crop": [
+              0,
+              0,
+              64,
+              64
+            ],
+            "at": [
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "dependencies": [
+        {
+          "kind": "layer-source",
+          "source": "art/model/model-sheet.png"
+        },
+        {
+          "kind": "reuse",
+          "frame": "idle",
+          "crop": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "at": [
+            0,
+            0
+          ]
+        },
+        {
+          "kind": "hit-region",
+          "frame": "idle"
+        }
+      ]
+    },
+    "lift": {
+      "file": "Lift/lift.png",
+      "foot": [
+        33,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/lift.png",
+        "selection": "1x1 cell 1",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "678f24a8b62fe06c502325ee83e6efb4859bd2dd5b2cdd93e3984efafef8719e",
+      "head": [
+        30,
+        14,
+        16,
+        24
+      ],
+      "body": [
+        17,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        23,
+        48,
+        27,
+        10
+      ],
+      "dependencies": []
+    },
+    "bite": {
+      "file": "Bite/bite.png",
+      "foot": [
+        32,
+        56
+      ],
+      "origin": {
+        "source": "art/actions/bite.png",
+        "selection": "1x1 cell 1",
+        "scaleReference": null
+      },
+      "width": 64,
+      "height": 64,
+      "sha256": "ec713d41672773452053c421985e9bdbfa21f86c0eee31550b738569c99e47ab",
+      "head": [
+        35,
+        25,
+        16,
+        22
+      ],
+      "body": [
+        16,
+        32,
+        32,
+        22
+      ],
+      "feet": [
+        22,
+        48,
+        27,
+        10
+      ],
+      "dependencies": []
     }
   },
   "clips": {
+    "TakingOff": {
+      "frames": [
+        {
+          "name": "flight-settle",
+          "milliseconds": 100
+        },
+        {
+          "name": "flight-takeoff",
+          "milliseconds": 120
+        }
+      ],
+      "loop": false
+    },
+    "Flying": {
+      "frames": [
+        {
+          "name": "flight-up",
+          "milliseconds": 90
+        },
+        {
+          "name": "flight-mid",
+          "milliseconds": 65
+        },
+        {
+          "name": "flight-down",
+          "milliseconds": 90
+        },
+        {
+          "name": "flight-mid",
+          "milliseconds": 65
+        }
+      ],
+      "loop": true
+    },
+    "Landing": {
+      "frames": [
+        {
+          "name": "flight-brake",
+          "milliseconds": 130
+        },
+        {
+          "name": "flight-settle",
+          "milliseconds": 110
+        }
+      ],
+      "loop": false
+    },
     "Idle": {
       "frames": [
         {
           "name": "idle",
-          "milliseconds": 2700
+          "milliseconds": 2200
         },
         {
-          "name": "blink",
+          "name": "idle-quarter",
           "milliseconds": 140
+        },
+        {
+          "name": "idle-front",
+          "milliseconds": 1800
+        },
+        {
+          "name": "idle-front-blink",
+          "milliseconds": 140
+        },
+        {
+          "name": "idle-front",
+          "milliseconds": 900
+        },
+        {
+          "name": "idle-quarter",
+          "milliseconds": 140
+        },
+        {
+          "name": "idle",
+          "milliseconds": 1400
         }
       ],
       "loop": true
@@ -419,28 +3294,77 @@
       "frames": [
         {
           "name": "walk1",
-          "milliseconds": 140
+          "milliseconds": 62.5
         },
         {
           "name": "walk2",
-          "milliseconds": 140
+          "milliseconds": 62.5
         },
         {
           "name": "walk3",
-          "milliseconds": 140
+          "milliseconds": 62.5
         },
         {
           "name": "walk4",
-          "milliseconds": 140
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk5",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk6",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk7",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk8",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk9",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk10",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk11",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk12",
+          "milliseconds": 62.5
         }
       ],
-      "loop": true
+      "loop": true,
+      "stridePixels": 12
     },
     "Beg": {
       "frames": [
         {
-          "name": "beg",
-          "milliseconds": 600
+          "name": "beg1",
+          "milliseconds": 700
+        },
+        {
+          "name": "beg2",
+          "milliseconds": 180
+        },
+        {
+          "name": "beg3",
+          "milliseconds": 220
+        },
+        {
+          "name": "beg2",
+          "milliseconds": 180
+        },
+        {
+          "name": "beg1",
+          "milliseconds": 700
         }
       ],
       "loop": true
@@ -452,8 +3376,16 @@
           "milliseconds": 450
         },
         {
-          "name": "beg",
-          "milliseconds": 120
+          "name": "pet2",
+          "milliseconds": 160
+        },
+        {
+          "name": "pet3",
+          "milliseconds": 180
+        },
+        {
+          "name": "pet2",
+          "milliseconds": 160
         },
         {
           "name": "pet",
@@ -478,8 +3410,12 @@
     "Sleep": {
       "frames": [
         {
-          "name": "sleep",
-          "milliseconds": 1000
+          "name": "sleep1",
+          "milliseconds": 1400
+        },
+        {
+          "name": "sleep2",
+          "milliseconds": 1400
         }
       ],
       "loop": true
@@ -488,15 +3424,51 @@
       "frames": [
         {
           "name": "stretch1",
-          "milliseconds": 350
+          "milliseconds": 80
         },
         {
           "name": "stretch2",
-          "milliseconds": 400
+          "milliseconds": 90
         },
         {
-          "name": "stretch1",
-          "milliseconds": 250
+          "name": "stretch3",
+          "milliseconds": 100
+        },
+        {
+          "name": "stretch4",
+          "milliseconds": 110
+        },
+        {
+          "name": "stretch5",
+          "milliseconds": 120
+        },
+        {
+          "name": "stretch6",
+          "milliseconds": 350
+        },
+        {
+          "name": "stretch7",
+          "milliseconds": 450
+        },
+        {
+          "name": "stretch8",
+          "milliseconds": 150
+        },
+        {
+          "name": "stretch9",
+          "milliseconds": 130
+        },
+        {
+          "name": "stretch10",
+          "milliseconds": 120
+        },
+        {
+          "name": "stretch11",
+          "milliseconds": 110
+        },
+        {
+          "name": "stretch12",
+          "milliseconds": 90
         }
       ],
       "loop": false
@@ -509,6 +3481,72 @@
         }
       ],
       "loop": true
+    },
+    "LookFront": {
+      "frames": [
+        {
+          "name": "look-front",
+          "milliseconds": 500
+        }
+      ],
+      "loop": true
+    },
+    "LookBack": {
+      "frames": [
+        {
+          "name": "look-back",
+          "milliseconds": 500
+        }
+      ],
+      "loop": true
+    },
+    "LookUpDiagonal": {
+      "frames": [
+        {
+          "name": "look-up-diagonal",
+          "milliseconds": 500
+        }
+      ],
+      "loop": true
+    },
+    "LookUpFront": {
+      "frames": [
+        {
+          "name": "look-up-front",
+          "milliseconds": 500
+        }
+      ],
+      "loop": true
+    },
+    "LookUpBack": {
+      "frames": [
+        {
+          "name": "look-up-back",
+          "milliseconds": 500
+        }
+      ],
+      "loop": true
+    },
+    "Turn": {
+      "frames": [
+        {
+          "name": "turn-quarter-step",
+          "milliseconds": 110
+        },
+        {
+          "name": "turn-front-a",
+          "milliseconds": 110
+        },
+        {
+          "name": "turn-front-b",
+          "milliseconds": 110
+        },
+        {
+          "name": "turn-quarter-settle",
+          "milliseconds": 110
+        }
+      ],
+      "loop": false
     },
     "Lift": {
       "frames": [
@@ -527,6 +3565,492 @@
         }
       ],
       "loop": false
+    },
+    "TakingOffFront": {
+      "frames": [
+        {
+          "name": "flight-front-settle",
+          "milliseconds": 100
+        },
+        {
+          "name": "flight-front-takeoff",
+          "milliseconds": 120
+        }
+      ],
+      "loop": false
+    },
+    "FlyingFront": {
+      "frames": [
+        {
+          "name": "flight-front-up",
+          "milliseconds": 90
+        },
+        {
+          "name": "flight-front-mid",
+          "milliseconds": 65
+        },
+        {
+          "name": "flight-front-down",
+          "milliseconds": 90
+        },
+        {
+          "name": "flight-front-mid",
+          "milliseconds": 65
+        }
+      ],
+      "loop": true
+    },
+    "LandingFront": {
+      "frames": [
+        {
+          "name": "flight-front-brake",
+          "milliseconds": 130
+        },
+        {
+          "name": "flight-front-settle",
+          "milliseconds": 110
+        }
+      ],
+      "loop": false
     }
-  }
+  },
+  "sourceImpact": {
+    "art/actions/beg.png": {
+      "frames": [
+        "beg1",
+        "beg2",
+        "beg3",
+        "pet",
+        "pet2",
+        "pet3"
+      ],
+      "clips": [
+        "Beg",
+        "Pet"
+      ],
+      "skinRegions": [
+        "beg1",
+        "beg2",
+        "beg3",
+        "pet",
+        "pet2",
+        "pet3"
+      ],
+      "previews": [
+        "art/previews/Beg.gif",
+        "art/previews/Pet.gif"
+      ]
+    },
+    "art/actions/bite.png": {
+      "frames": [
+        "bite"
+      ],
+      "clips": [
+        "Bite"
+      ],
+      "skinRegions": [
+        "bite"
+      ],
+      "previews": [
+        "art/previews/Bite.gif"
+      ]
+    },
+    "art/actions/flight-front.png": {
+      "frames": [
+        "flight-front-brake",
+        "flight-front-down",
+        "flight-front-mid",
+        "flight-front-takeoff",
+        "flight-front-up"
+      ],
+      "clips": [
+        "TakingOffFront",
+        "FlyingFront",
+        "LandingFront"
+      ],
+      "skinRegions": [
+        "flight-front-brake",
+        "flight-front-down",
+        "flight-front-mid",
+        "flight-front-takeoff",
+        "flight-front-up"
+      ],
+      "previews": [
+        "art/previews/TakingOffFront.gif",
+        "art/previews/FlyingFront.gif",
+        "art/previews/LandingFront.gif"
+      ]
+    },
+    "art/actions/flight.png": {
+      "frames": [
+        "flight-brake",
+        "flight-down",
+        "flight-mid",
+        "flight-takeoff",
+        "flight-up"
+      ],
+      "clips": [
+        "TakingOff",
+        "Flying",
+        "Landing"
+      ],
+      "skinRegions": [
+        "flight-brake",
+        "flight-down",
+        "flight-mid",
+        "flight-takeoff",
+        "flight-up"
+      ],
+      "previews": [
+        "art/previews/TakingOff.gif",
+        "art/previews/Flying.gif",
+        "art/previews/Landing.gif"
+      ]
+    },
+    "art/actions/lift.png": {
+      "frames": [
+        "lift"
+      ],
+      "clips": [
+        "Lift"
+      ],
+      "skinRegions": [
+        "lift"
+      ],
+      "previews": [
+        "art/previews/Lift.gif"
+      ]
+    },
+    "art/actions/look.png": {
+      "frames": [
+        "look-front",
+        "look-up-back",
+        "look-up-diagonal",
+        "look-up-front"
+      ],
+      "clips": [
+        "LookFront",
+        "LookUpDiagonal",
+        "LookUpFront",
+        "LookUpBack"
+      ],
+      "skinRegions": [
+        "look-front",
+        "look-up-back",
+        "look-up-diagonal",
+        "look-up-front"
+      ],
+      "previews": [
+        "art/previews/LookFront.gif",
+        "art/previews/LookUpDiagonal.gif",
+        "art/previews/LookUpFront.gif",
+        "art/previews/LookUpBack.gif"
+      ]
+    },
+    "art/actions/pet.png": {
+      "frames": [
+        "pet",
+        "pet2",
+        "pet3"
+      ],
+      "clips": [
+        "Pet"
+      ],
+      "skinRegions": [
+        "pet",
+        "pet2",
+        "pet3"
+      ],
+      "previews": [
+        "art/previews/Pet.gif"
+      ]
+    },
+    "art/actions/sing.png": {
+      "frames": [
+        "sing1",
+        "sing2"
+      ],
+      "clips": [
+        "Sing"
+      ],
+      "skinRegions": [
+        "sing1",
+        "sing2"
+      ],
+      "previews": [
+        "art/previews/Sing.gif"
+      ]
+    },
+    "art/actions/sleep.png": {
+      "frames": [
+        "sleep1",
+        "sleep2"
+      ],
+      "clips": [
+        "Sleep"
+      ],
+      "skinRegions": [
+        "sleep1",
+        "sleep2"
+      ],
+      "previews": [
+        "art/previews/Sleep.gif"
+      ]
+    },
+    "art/actions/stretch.png": {
+      "frames": [
+        "stretch10",
+        "stretch11",
+        "stretch2",
+        "stretch3",
+        "stretch4",
+        "stretch5",
+        "stretch6",
+        "stretch7",
+        "stretch8",
+        "stretch9"
+      ],
+      "clips": [
+        "Stretch"
+      ],
+      "skinRegions": [
+        "stretch10",
+        "stretch11",
+        "stretch2",
+        "stretch3",
+        "stretch4",
+        "stretch5",
+        "stretch6",
+        "stretch7",
+        "stretch8",
+        "stretch9"
+      ],
+      "previews": [
+        "art/previews/Stretch.gif"
+      ]
+    },
+    "art/actions/turn.png": {
+      "frames": [
+        "turn-front-a",
+        "turn-front-b",
+        "turn-quarter-settle",
+        "turn-quarter-step"
+      ],
+      "clips": [
+        "Turn"
+      ],
+      "skinRegions": [
+        "turn-front-a",
+        "turn-front-b",
+        "turn-quarter-settle",
+        "turn-quarter-step"
+      ],
+      "previews": [
+        "art/previews/Turn.gif"
+      ]
+    },
+    "art/actions/walk-rig.png": {
+      "frames": [
+        "walk1",
+        "walk10",
+        "walk11",
+        "walk12",
+        "walk2",
+        "walk3",
+        "walk4",
+        "walk5",
+        "walk6",
+        "walk7",
+        "walk8",
+        "walk9"
+      ],
+      "clips": [
+        "Walk"
+      ],
+      "skinRegions": [
+        "walk1",
+        "walk10",
+        "walk11",
+        "walk12",
+        "walk2",
+        "walk3",
+        "walk4",
+        "walk5",
+        "walk6",
+        "walk7",
+        "walk8",
+        "walk9"
+      ],
+      "previews": [
+        "art/previews/Walk.gif"
+      ]
+    },
+    "art/model/model-sheet.png": {
+      "frames": [
+        "flight-brake",
+        "flight-down",
+        "flight-front-brake",
+        "flight-front-down",
+        "flight-front-mid",
+        "flight-front-settle",
+        "flight-front-takeoff",
+        "flight-front-up",
+        "flight-mid",
+        "flight-settle",
+        "flight-takeoff",
+        "flight-up",
+        "idle",
+        "idle-front",
+        "idle-front-blink",
+        "idle-quarter",
+        "look",
+        "look-back",
+        "look-front",
+        "look-up-back",
+        "look-up-diagonal",
+        "look-up-front",
+        "stretch1",
+        "stretch10",
+        "stretch11",
+        "stretch12",
+        "stretch2",
+        "stretch3",
+        "stretch4",
+        "stretch5",
+        "stretch6",
+        "stretch7",
+        "stretch8",
+        "stretch9",
+        "turn-front-a",
+        "turn-front-b",
+        "turn-quarter-settle",
+        "turn-quarter-step",
+        "walk1",
+        "walk10",
+        "walk11",
+        "walk12",
+        "walk2",
+        "walk3",
+        "walk4",
+        "walk5",
+        "walk6",
+        "walk7",
+        "walk8",
+        "walk9"
+      ],
+      "clips": [
+        "TakingOff",
+        "Flying",
+        "Landing",
+        "Idle",
+        "Walk",
+        "Stretch",
+        "Look",
+        "LookFront",
+        "LookBack",
+        "LookUpDiagonal",
+        "LookUpFront",
+        "LookUpBack",
+        "Turn",
+        "TakingOffFront",
+        "FlyingFront",
+        "LandingFront"
+      ],
+      "skinRegions": [
+        "flight-brake",
+        "flight-down",
+        "flight-front-brake",
+        "flight-front-down",
+        "flight-front-mid",
+        "flight-front-settle",
+        "flight-front-takeoff",
+        "flight-front-up",
+        "flight-mid",
+        "flight-settle",
+        "flight-takeoff",
+        "flight-up",
+        "idle",
+        "idle-front",
+        "idle-front-blink",
+        "idle-quarter",
+        "look",
+        "look-back",
+        "look-front",
+        "look-up-back",
+        "look-up-diagonal",
+        "look-up-front",
+        "stretch1",
+        "stretch10",
+        "stretch11",
+        "stretch12",
+        "stretch2",
+        "stretch3",
+        "stretch4",
+        "stretch5",
+        "stretch6",
+        "stretch7",
+        "stretch8",
+        "stretch9",
+        "turn-front-a",
+        "turn-front-b",
+        "turn-quarter-settle",
+        "turn-quarter-step",
+        "walk1",
+        "walk10",
+        "walk11",
+        "walk12",
+        "walk2",
+        "walk3",
+        "walk4",
+        "walk5",
+        "walk6",
+        "walk7",
+        "walk8",
+        "walk9"
+      ],
+      "previews": [
+        "art/previews/TakingOff.gif",
+        "art/previews/Flying.gif",
+        "art/previews/Landing.gif",
+        "art/previews/Idle.gif",
+        "art/previews/Walk.gif",
+        "art/previews/Stretch.gif",
+        "art/previews/Look.gif",
+        "art/previews/LookFront.gif",
+        "art/previews/LookBack.gif",
+        "art/previews/LookUpDiagonal.gif",
+        "art/previews/LookUpFront.gif",
+        "art/previews/LookUpBack.gif",
+        "art/previews/Turn.gif",
+        "art/previews/TakingOffFront.gif",
+        "art/previews/FlyingFront.gif",
+        "art/previews/LandingFront.gif"
+      ]
+    }
+  },
+  "generatedDocuments": {
+    "art/actions/ANIMATION_REFERENCES.md": "f7e6e2b2f4683b6799a8b83526e7ec05ae870af53506a1b8f2172cc08d774513"
+  },
+  "sourceHashes": {
+    "art/actions/asset-bindings.json": "86d4ea04577344dbbec494522adf83069c17605df7729d82718f85f945d0259d",
+    "art/model/model-sheet.png": "8748fa6cd58ce219a78aa4cb0c4f52af75dac1425e723bc10ed9c20f6c65b363",
+    "art/actions/beg.png": "b5cb637401c5052e75a606efea4f90f2f22b32ae98ebc2340051f2fdb0085a95",
+    "art/model/model.json": "372d5220c2620b1ace50e131e55338304fd0cc28dd6f4d2f72d990d3853552c3",
+    "tools/prepare_model.py": "00d3d3927d1cb1a140d5aeee11677d761575262fefef53be9651a8bb920e02df",
+    "art/actions/look.png": "b0d1d0fa3d4ac17ca270bdcc208166ef3819434c48458567ee3eb46434be5e12",
+    "art/actions/turn.png": "664a32ee04602a39694d502be2eb889f4fbd5fc0b4c2e671d40c1470e7c91842",
+    "art/actions/pet.png": "072504a2ebc3a9678de8a5a99ed30b75faabb7a6e80b4fe6abb59f9963df9d49",
+    "art/actions/sleep.png": "53d6520e344bede17352b330922aa6e0d72952975edb4823240c9dfc4f40acef",
+    "art/actions/walk-rig.png": "c8dfc15039e20d646427deaddceb94f7cadf5c2c08bf78e15648c3ddf30aa189",
+    "art/actions/flight.png": "8c6bbc908e5cb758676bdd68366e1e2be1e202bbd3a4d817a8a6cc4949c6e652",
+    "art/actions/flight-front.png": "973492f869cbf5fb339a51fbd2249f7d03894a9ee0eaaf3f247976fa4fc7c2fd",
+    "art/actions/sing.png": "5853e33d9994516f9532c2e1d5d1a13ab48827caf9d71eb557f5f7595ad943a4",
+    "art/actions/stretch.png": "a48836287f96d92961d565072ea5711f76687b1fa6b171234400cfd0b6fa9ec4",
+    "art/actions/lift.png": "71900d9135dfd7689690aef461ed1f56d904f78b2d10a12438df370c264e3468",
+    "art/actions/bite.png": "a94d68d24dc58bd2627a7dd1e5158023769bbd0397235205d432d39eaa6fd386",
+    "tools/normalize_palette.py": "7b2bcdcc6f364ee7dd1f44a6fbc44383e56e4e7b0a60fc8fe9522951649dc1ca",
+    "tools/asset_catalog.py": "245c52c69df246e4abe4996c747be85f1e72e980231d16b47676fc18a4774eef",
+    "tools/prepare_assets.py": "e4d4f4ac813818bec00a8dfa3c2069823f86ad5e9d9ac2358c0b8d802f7f24ce"
+  },
+  "skinManifestSha256": "36238665953fecc867d570a48a864752540679d37ef6ba112490d04ef47705a5"
 }

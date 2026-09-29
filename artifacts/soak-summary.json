@@ -1,9 +1,0 @@
-{
-  "Minutes": 3,
-  "Samples": 18,
-  "FirstHalfPrivateMBAverage": 172.27,
-  "LastHalfPrivateMBAverage": 169.78,
-  "PrivateMBChange": -2.48,
-  "HandleChange": 13,
-  "Status": "Completed; inspect memory/handle trends. The pet remains running."
-}

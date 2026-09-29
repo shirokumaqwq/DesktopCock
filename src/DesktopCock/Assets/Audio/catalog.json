@@ -1,0 +1,484 @@
+{
+  "schemaVersion": 1,
+  "clips": [
+    {
+      "id": "chirp-soft",
+      "kind": "Chirp",
+      "file": "chirp-soft.wav",
+      "duration": 1.04,
+      "mouth": [
+        {
+          "seconds": 0,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 0.08,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.105,
+          "pose": "Open"
+        },
+        {
+          "seconds": 0.22,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.24,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 0.28,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.305,
+          "pose": "Open"
+        },
+        {
+          "seconds": 0.39,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.41,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 0.46,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.485,
+          "pose": "Open"
+        },
+        {
+          "seconds": 0.63,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.65,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 0.76,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.785,
+          "pose": "Open"
+        },
+        {
+          "seconds": 0.91,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.93,
+          "pose": "Closed"
+        }
+      ],
+      "sha256": "85eb2ac69c2def37dbb6700c99d649826686b608b2c784ba50a9f1b153fa8e12",
+      "sourceSha256": "54dcc803c2679d8ba9e949208d7b6a7effa5ed4dae75f63a782cc3e9786952d9",
+      "source": "https://bigsoundbank.com/sound-2770-perruche-calopsitte-2.html",
+      "author": "Joseph SARDIN",
+      "license": "CC0-1.0",
+      "sourceStart": 0.04,
+      "sourceEnd": 1.08
+    },
+    {
+      "id": "chirp-double",
+      "kind": "Chirp",
+      "file": "chirp-double.wav",
+      "duration": 0.8,
+      "mouth": [
+        {
+          "seconds": 0,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 0.04,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.065,
+          "pose": "Open"
+        },
+        {
+          "seconds": 0.2,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.22,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 0.41,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.435,
+          "pose": "Open"
+        },
+        {
+          "seconds": 0.69,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.71,
+          "pose": "Closed"
+        }
+      ],
+      "sha256": "ce092a7a8b8b0bab6428abe0e15939b60c1869a7a6a69631cb0537f71240e56a",
+      "sourceSha256": "aa8d2b0278caade6d3ab566d58baa4245e0199635247dd6748f3c47c73c1d8b0",
+      "source": "https://bigsoundbank.com/sound-2788-perruche-calopsitte-20.html",
+      "author": "Joseph SARDIN",
+      "license": "CC0-1.0",
+      "sourceStart": 0.0,
+      "sourceEnd": 0.8
+    },
+    {
+      "id": "chirp-trill",
+      "kind": "Chirp",
+      "file": "chirp-trill.wav",
+      "duration": 1.13,
+      "mouth": [
+        {
+          "seconds": 0,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 0.08,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.105,
+          "pose": "Open"
+        },
+        {
+          "seconds": 0.3,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.32,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 0.36,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.385,
+          "pose": "Open"
+        },
+        {
+          "seconds": 0.51,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.53,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 0.68,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.705,
+          "pose": "Open"
+        },
+        {
+          "seconds": 0.79,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.81,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 0.95,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.975,
+          "pose": "Open"
+        },
+        {
+          "seconds": 1.04,
+          "pose": "Small"
+        },
+        {
+          "seconds": 1.06,
+          "pose": "Closed"
+        }
+      ],
+      "sha256": "4110295edcd83eebf168aa5708c34f90ee982009842f371643b09a188e49ca18",
+      "sourceSha256": "ef1ec5bafd8143a60a556a9268035c772f4d0ef7b4ba5eeb8109923b1835289e",
+      "source": "https://bigsoundbank.com/sound-2773-perruche-calopsitte-5.html",
+      "author": "Joseph SARDIN",
+      "license": "CC0-1.0",
+      "sourceStart": 0.04,
+      "sourceEnd": 1.17
+    },
+    {
+      "id": "chirp-bright",
+      "kind": "Chirp",
+      "file": "chirp-bright.wav",
+      "duration": 0.58,
+      "mouth": [
+        {
+          "seconds": 0,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 0.11,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.135,
+          "pose": "Open"
+        },
+        {
+          "seconds": 0.21,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.23,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 0.38,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.405,
+          "pose": "Open"
+        },
+        {
+          "seconds": 0.48,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.5,
+          "pose": "Closed"
+        }
+      ],
+      "sha256": "7c9849325f9d0dfd546ff4c4b08617d07dc7296f019e162489293c36f4ebd324",
+      "sourceSha256": "434a07740c79eacd8c8f7a0f7a3337f495392971a4b4a18403930d25495fd33d",
+      "source": "https://bigsoundbank.com/sound-2776-perruche-calopsitte-8.html",
+      "author": "Joseph SARDIN",
+      "license": "CC0-1.0",
+      "sourceStart": 1.45,
+      "sourceEnd": 2.03
+    },
+    {
+      "id": "song-whistle",
+      "kind": "Song",
+      "file": "song-whistle.wav",
+      "duration": 4.28,
+      "mouth": [
+        {
+          "seconds": 0,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 0.08,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.105,
+          "pose": "Open"
+        },
+        {
+          "seconds": 0.15,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.17,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 0.41,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.435,
+          "pose": "Open"
+        },
+        {
+          "seconds": 0.51,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.53,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 0.68,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.705,
+          "pose": "Open"
+        },
+        {
+          "seconds": 0.78,
+          "pose": "Small"
+        },
+        {
+          "seconds": 0.8,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 1.0,
+          "pose": "Small"
+        },
+        {
+          "seconds": 1.025,
+          "pose": "Open"
+        },
+        {
+          "seconds": 1.22,
+          "pose": "Small"
+        },
+        {
+          "seconds": 1.24,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 1.45,
+          "pose": "Small"
+        },
+        {
+          "seconds": 1.475,
+          "pose": "Open"
+        },
+        {
+          "seconds": 1.57,
+          "pose": "Small"
+        },
+        {
+          "seconds": 1.59,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 1.69,
+          "pose": "Small"
+        },
+        {
+          "seconds": 1.715,
+          "pose": "Open"
+        },
+        {
+          "seconds": 1.81,
+          "pose": "Small"
+        },
+        {
+          "seconds": 1.83,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 2.07,
+          "pose": "Small"
+        },
+        {
+          "seconds": 2.095,
+          "pose": "Open"
+        },
+        {
+          "seconds": 2.19,
+          "pose": "Small"
+        },
+        {
+          "seconds": 2.21,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 2.4,
+          "pose": "Small"
+        },
+        {
+          "seconds": 2.425,
+          "pose": "Open"
+        },
+        {
+          "seconds": 2.65,
+          "pose": "Small"
+        },
+        {
+          "seconds": 2.67,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 2.9,
+          "pose": "Small"
+        },
+        {
+          "seconds": 2.925,
+          "pose": "Open"
+        },
+        {
+          "seconds": 3.17,
+          "pose": "Small"
+        },
+        {
+          "seconds": 3.19,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 3.35,
+          "pose": "Small"
+        },
+        {
+          "seconds": 3.375,
+          "pose": "Open"
+        },
+        {
+          "seconds": 3.5,
+          "pose": "Small"
+        },
+        {
+          "seconds": 3.52,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 3.69,
+          "pose": "Small"
+        },
+        {
+          "seconds": 3.715,
+          "pose": "Open"
+        },
+        {
+          "seconds": 3.79,
+          "pose": "Small"
+        },
+        {
+          "seconds": 3.81,
+          "pose": "Closed"
+        },
+        {
+          "seconds": 3.92,
+          "pose": "Small"
+        },
+        {
+          "seconds": 3.945,
+          "pose": "Open"
+        },
+        {
+          "seconds": 4.14,
+          "pose": "Small"
+        },
+        {
+          "seconds": 4.16,
+          "pose": "Closed"
+        }
+      ],
+      "sha256": "b51f840cb9b49bf1fd34589c68f5b784bb307927b1869617cbbf661c5962d475",
+      "sourceSha256": "434a07740c79eacd8c8f7a0f7a3337f495392971a4b4a18403930d25495fd33d",
+      "source": "https://bigsoundbank.com/sound-2776-perruche-calopsitte-8.html",
+      "author": "Joseph SARDIN",
+      "license": "CC0-1.0",
+      "sourceStart": 1.15,
+      "sourceEnd": 5.43
+    }
+  ]
+}

@@ -1,0 +1,785 @@
+{
+  "schemaVersion": 1,
+  "scaleGroups": {
+    "bowed": {
+      "referenceAction": "Beg",
+      "width": 53,
+      "members": [
+        "Beg",
+        "Pet"
+      ]
+    }
+  },
+  "reviewedVariants": [
+    {
+      "source": "look.png",
+      "reference": "../model/model-sheet.png",
+      "referenceSha256": "8748fa6cd58ce219a78aa4cb0c4f52af75dac1425e723bc10ed9c20f6c65b363",
+      "frames": [
+        "look-front",
+        "look-up-diagonal",
+        "look-up-front",
+        "look-up-back"
+      ],
+      "reason": "The whole front-looking head/neck and upward gaze variants are reviewed against the canonical model; preserve their authored neck connections."
+    },
+    {
+      "source": "pet.png",
+      "reference": "beg.png",
+      "referenceSha256": "b5cb637401c5052e75a606efea4f90f2f22b32ae98ebc2340051f2fdb0085a95",
+      "frames": [
+        "pet",
+        "pet2",
+        "pet3"
+      ],
+      "reason": "Closed-eye variants share the bowed body scale and must follow changes to the begging source."
+    },
+    {
+      "source": "flight.png",
+      "reference": "../model/model-sheet.png",
+      "referenceSha256": "8748fa6cd58ce219a78aa4cb0c4f52af75dac1425e723bc10ed9c20f6c65b363",
+      "frames": [
+        "flight-takeoff",
+        "flight-up",
+        "flight-mid",
+        "flight-down",
+        "flight-brake"
+      ],
+      "reason": "Flight skull, cheek scale and head registration reviewed against the canonical corresponding standing view."
+    },
+    {
+      "source": "flight-front.png",
+      "reference": "../model/model-sheet.png",
+      "referenceSha256": "8748fa6cd58ce219a78aa4cb0c4f52af75dac1425e723bc10ed9c20f6c65b363",
+      "frames": [
+        "flight-front-takeoff",
+        "flight-front-up",
+        "flight-front-mid",
+        "flight-front-down",
+        "flight-front-brake"
+      ],
+      "reason": "Flight skull, cheek scale and head registration reviewed against the canonical corresponding standing view."
+    }
+  ],
+  "compositions": {
+    "look": {
+      "headFrom": "idle",
+      "layers": [
+        {
+          "frame": "idle",
+          "crop": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "at": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "turn-quarter-step": {
+      "headFrom": "idle-quarter",
+      "layers": [
+        {
+          "frame": "idle-quarter",
+          "crop": [
+            0,
+            0,
+            64,
+            50
+          ],
+          "at": [
+            0,
+            0
+          ]
+        },
+        {
+          "frame": "idle-quarter",
+          "crop": [
+            0,
+            50,
+            22,
+            64
+          ],
+          "at": [
+            0,
+            50
+          ]
+        },
+        {
+          "frame": "idle-quarter",
+          "crop": [
+            47,
+            50,
+            64,
+            64
+          ],
+          "at": [
+            47,
+            50
+          ]
+        },
+        {
+          "frame": "turn-quarter-step",
+          "crop": [
+            22,
+            50,
+            47,
+            64
+          ],
+          "at": [
+            22,
+            50
+          ]
+        }
+      ]
+    },
+    "turn-front-a": {
+      "headFrom": "idle-front",
+      "layers": [
+        {
+          "frame": "idle-front",
+          "crop": [
+            0,
+            0,
+            64,
+            50
+          ],
+          "at": [
+            0,
+            0
+          ]
+        },
+        {
+          "frame": "idle-front",
+          "crop": [
+            0,
+            50,
+            22,
+            64
+          ],
+          "at": [
+            0,
+            50
+          ]
+        },
+        {
+          "frame": "idle-front",
+          "crop": [
+            47,
+            50,
+            64,
+            64
+          ],
+          "at": [
+            47,
+            50
+          ]
+        },
+        {
+          "frame": "turn-front-a",
+          "crop": [
+            22,
+            50,
+            47,
+            64
+          ],
+          "at": [
+            22,
+            50
+          ]
+        }
+      ]
+    },
+    "turn-front-b": {
+      "headFrom": "idle-front",
+      "layers": [
+        {
+          "frame": "idle-front",
+          "crop": [
+            0,
+            0,
+            64,
+            50
+          ],
+          "at": [
+            0,
+            0
+          ]
+        },
+        {
+          "frame": "idle-front",
+          "crop": [
+            0,
+            50,
+            22,
+            64
+          ],
+          "at": [
+            0,
+            50
+          ]
+        },
+        {
+          "frame": "idle-front",
+          "crop": [
+            47,
+            50,
+            64,
+            64
+          ],
+          "at": [
+            47,
+            50
+          ]
+        },
+        {
+          "frame": "turn-front-b",
+          "crop": [
+            22,
+            50,
+            47,
+            64
+          ],
+          "at": [
+            22,
+            50
+          ]
+        }
+      ]
+    },
+    "turn-quarter-settle": {
+      "headFrom": "idle-quarter",
+      "layers": [
+        {
+          "frame": "idle-quarter",
+          "crop": [
+            0,
+            0,
+            64,
+            50
+          ],
+          "at": [
+            0,
+            0
+          ]
+        },
+        {
+          "frame": "idle-quarter",
+          "crop": [
+            0,
+            50,
+            22,
+            64
+          ],
+          "at": [
+            0,
+            50
+          ]
+        },
+        {
+          "frame": "idle-quarter",
+          "crop": [
+            47,
+            50,
+            64,
+            64
+          ],
+          "at": [
+            47,
+            50
+          ]
+        },
+        {
+          "frame": "turn-quarter-settle",
+          "crop": [
+            22,
+            50,
+            47,
+            64
+          ],
+          "at": [
+            22,
+            50
+          ]
+        }
+      ]
+    },
+    "stretch1": {
+      "headFrom": "idle",
+      "layers": [
+        {
+          "frame": "idle",
+          "crop": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "at": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "stretch12": {
+      "headFrom": "idle",
+      "layers": [
+        {
+          "frame": "idle",
+          "crop": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "at": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "clips": {
+    "TakingOff": {
+      "frames": [
+        {
+          "name": "flight-settle",
+          "milliseconds": 100
+        },
+        {
+          "name": "flight-takeoff",
+          "milliseconds": 120
+        }
+      ],
+      "loop": false
+    },
+    "Flying": {
+      "frames": [
+        {
+          "name": "flight-up",
+          "milliseconds": 90
+        },
+        {
+          "name": "flight-mid",
+          "milliseconds": 65
+        },
+        {
+          "name": "flight-down",
+          "milliseconds": 90
+        },
+        {
+          "name": "flight-mid",
+          "milliseconds": 65
+        }
+      ],
+      "loop": true
+    },
+    "Landing": {
+      "frames": [
+        {
+          "name": "flight-brake",
+          "milliseconds": 130
+        },
+        {
+          "name": "flight-settle",
+          "milliseconds": 110
+        }
+      ],
+      "loop": false
+    },
+    "Idle": {
+      "frames": [
+        {
+          "name": "idle",
+          "milliseconds": 2200
+        },
+        {
+          "name": "idle-quarter",
+          "milliseconds": 140
+        },
+        {
+          "name": "idle-front",
+          "milliseconds": 1800
+        },
+        {
+          "name": "idle-front-blink",
+          "milliseconds": 140
+        },
+        {
+          "name": "idle-front",
+          "milliseconds": 900
+        },
+        {
+          "name": "idle-quarter",
+          "milliseconds": 140
+        },
+        {
+          "name": "idle",
+          "milliseconds": 1400
+        }
+      ],
+      "loop": true
+    },
+    "Walk": {
+      "frames": [
+        {
+          "name": "walk1",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk2",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk3",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk4",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk5",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk6",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk7",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk8",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk9",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk10",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk11",
+          "milliseconds": 62.5
+        },
+        {
+          "name": "walk12",
+          "milliseconds": 62.5
+        }
+      ],
+      "loop": true,
+      "stridePixels": 12
+    },
+    "Beg": {
+      "frames": [
+        {
+          "name": "beg1",
+          "milliseconds": 700
+        },
+        {
+          "name": "beg2",
+          "milliseconds": 180
+        },
+        {
+          "name": "beg3",
+          "milliseconds": 220
+        },
+        {
+          "name": "beg2",
+          "milliseconds": 180
+        },
+        {
+          "name": "beg1",
+          "milliseconds": 700
+        }
+      ],
+      "loop": true
+    },
+    "Pet": {
+      "frames": [
+        {
+          "name": "pet",
+          "milliseconds": 450
+        },
+        {
+          "name": "pet2",
+          "milliseconds": 160
+        },
+        {
+          "name": "pet3",
+          "milliseconds": 180
+        },
+        {
+          "name": "pet2",
+          "milliseconds": 160
+        },
+        {
+          "name": "pet",
+          "milliseconds": 450
+        }
+      ],
+      "loop": true
+    },
+    "Sing": {
+      "frames": [
+        {
+          "name": "sing1",
+          "milliseconds": 220
+        },
+        {
+          "name": "sing2",
+          "milliseconds": 240
+        }
+      ],
+      "loop": true
+    },
+    "Sleep": {
+      "frames": [
+        {
+          "name": "sleep1",
+          "milliseconds": 1400
+        },
+        {
+          "name": "sleep2",
+          "milliseconds": 1400
+        }
+      ],
+      "loop": true
+    },
+    "Stretch": {
+      "frames": [
+        {
+          "name": "stretch1",
+          "milliseconds": 80
+        },
+        {
+          "name": "stretch2",
+          "milliseconds": 90
+        },
+        {
+          "name": "stretch3",
+          "milliseconds": 100
+        },
+        {
+          "name": "stretch4",
+          "milliseconds": 110
+        },
+        {
+          "name": "stretch5",
+          "milliseconds": 120
+        },
+        {
+          "name": "stretch6",
+          "milliseconds": 350
+        },
+        {
+          "name": "stretch7",
+          "milliseconds": 450
+        },
+        {
+          "name": "stretch8",
+          "milliseconds": 150
+        },
+        {
+          "name": "stretch9",
+          "milliseconds": 130
+        },
+        {
+          "name": "stretch10",
+          "milliseconds": 120
+        },
+        {
+          "name": "stretch11",
+          "milliseconds": 110
+        },
+        {
+          "name": "stretch12",
+          "milliseconds": 90
+        }
+      ],
+      "loop": false
+    },
+    "Look": {
+      "frames": [
+        {
+          "name": "look",
+          "milliseconds": 500
+        }
+      ],
+      "loop": true
+    },
+    "LookFront": {
+      "frames": [
+        {
+          "name": "look-front",
+          "milliseconds": 500
+        }
+      ],
+      "loop": true
+    },
+    "LookBack": {
+      "frames": [
+        {
+          "name": "look-back",
+          "milliseconds": 500
+        }
+      ],
+      "loop": true
+    },
+    "LookUpDiagonal": {
+      "frames": [
+        {
+          "name": "look-up-diagonal",
+          "milliseconds": 500
+        }
+      ],
+      "loop": true
+    },
+    "LookUpFront": {
+      "frames": [
+        {
+          "name": "look-up-front",
+          "milliseconds": 500
+        }
+      ],
+      "loop": true
+    },
+    "LookUpBack": {
+      "frames": [
+        {
+          "name": "look-up-back",
+          "milliseconds": 500
+        }
+      ],
+      "loop": true
+    },
+    "Turn": {
+      "frames": [
+        {
+          "name": "turn-quarter-step",
+          "milliseconds": 110
+        },
+        {
+          "name": "turn-front-a",
+          "milliseconds": 110
+        },
+        {
+          "name": "turn-front-b",
+          "milliseconds": 110
+        },
+        {
+          "name": "turn-quarter-settle",
+          "milliseconds": 110
+        }
+      ],
+      "loop": false
+    },
+    "Lift": {
+      "frames": [
+        {
+          "name": "lift",
+          "milliseconds": 500
+        }
+      ],
+      "loop": true
+    },
+    "Bite": {
+      "frames": [
+        {
+          "name": "bite",
+          "milliseconds": 400
+        }
+      ],
+      "loop": false
+    },
+    "TakingOffFront": {
+      "frames": [
+        {
+          "name": "flight-front-settle",
+          "milliseconds": 100
+        },
+        {
+          "name": "flight-front-takeoff",
+          "milliseconds": 120
+        }
+      ],
+      "loop": false
+    },
+    "FlyingFront": {
+      "frames": [
+        {
+          "name": "flight-front-up",
+          "milliseconds": 90
+        },
+        {
+          "name": "flight-front-mid",
+          "milliseconds": 65
+        },
+        {
+          "name": "flight-front-down",
+          "milliseconds": 90
+        },
+        {
+          "name": "flight-front-mid",
+          "milliseconds": 65
+        }
+      ],
+      "loop": true
+    },
+    "LandingFront": {
+      "frames": [
+        {
+          "name": "flight-front-brake",
+          "milliseconds": 130
+        },
+        {
+          "name": "flight-front-settle",
+          "milliseconds": 110
+        }
+      ],
+      "loop": false
+    }
+  },
+  "paletteGroups": {
+    "originalFace": {
+      "referenceFrame": "idle",
+      "regions": [
+        "head",
+        "cheek"
+      ],
+      "frames": [
+        "look-front",
+        "stretch2",
+        "stretch3",
+        "stretch4",
+        "stretch5",
+        "stretch6",
+        "stretch7",
+        "stretch8",
+        "stretch9",
+        "stretch10",
+        "stretch11",
+        "flight-takeoff",
+        "flight-up",
+        "flight-mid",
+        "flight-down",
+        "flight-brake",
+        "flight-front-takeoff",
+        "flight-front-up",
+        "flight-front-mid",
+        "flight-front-down",
+        "flight-front-brake"
+      ]
+    }
+  }
+}

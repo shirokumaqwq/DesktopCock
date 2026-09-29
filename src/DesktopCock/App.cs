@@ -20,9 +20,10 @@ public sealed class App : Application
         var pet = new PetWindow();
         app.MainWindow = pet;
         pet.Show();
+#if DEBUG
         if (Array.IndexOf(args, "--preview") >= 0) pet.OpenPreview();
-        if (Array.IndexOf(args, "--verify") >= 0)
-            pet.Dispatcher.BeginInvoke(new Action(async () => await pet.VerifyDesktop()));
+        if (Array.IndexOf(args, "--flight-debug") >= 0) pet.SetFlightDebug(true);
+#endif
         app.Run();
     }
 }

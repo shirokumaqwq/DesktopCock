@@ -1,50 +1,68 @@
 # 玄凤 · DesktopCock
 
-Windows 10/11 x64 像素玄凤桌宠原型。无需联网，默认无声音。
+Windows 10/11 x64 像素玄凤桌宠。支持手型注视、接鸟随手移动、摸头、睡眠、散步、换色、自主飞行与真实玄凤叫声；声音与嘴部张合同步，运行无需联网。托盘可静音，并提供本地教学与短语记忆原型，详见 [音频说明](docs/AUDIO.md)。
 
-## 使用
+## 运行
 
-解压 `DesktopCock-win-x64.zip`，双击 `DesktopCock.exe`。请保留整个文件夹，包含 Assets 和运行库。
+解压 `dist/DesktopCock-win-x64-Release.zip`，运行其中的 `DesktopCock.exe`，保留同目录的 Assets 和运行库。托盘右键可隐藏、暂停、调整大小、切换羽色、设置自主飞行或退出；双击恢复显示。
 
-- 玄凤会站在主屏底部任务栏上散步、低头求摸、偶尔无声唱歌。
-- 鼠标靠近会转头，移到脚边会抬爪。在头部按住左键，缓慢来回移动即可摸头。
-- 连续摸太久、快速摩擦或反复点击会惹它生气，朝鼠标啄一下。
-- 白天空闲 10 分钟睡觉；本地时间 22:00–07:00，空闲 2 分钟睡觉。恢复键鼠输入会醒来伸翅；点击睡鸟会让它生气。
-- 托盘图标右键可隐藏、暂停、改变大小、打开「动作预览 / 调试」或退出。图标可能被 Windows 收在托盘折叠菜单内。
-- 观察室可以强制预览所有姿势及模拟夜间/空闲。强制预览期间行为不会自然转换；「恢复自然活动」或关闭观察室恢复正常。点击鸟会取消空闲模拟。
-- `DesktopCock.exe --preview` 启动时打开观察室。
+更新或切换配置前，从托盘退出正在运行的桌宠，再启动新包中的程序。Debug 与 Release 共用单实例约束。
 
-## 范围与设置
+完整操作与设置见 [使用说明](docs/USER_GUIDE.md)。观察室、飞行覆盖层和模拟输入仅存在于 Debug，见 [构建与调试](docs/DEBUGGING.md)。
 
-首版只管理主屏上的一只鸟。任务栏自动隐藏时落在屏幕底边，主屏全屏应用运行时暂时隐藏。侧边任务栏或读取失败时，退回主屏工作区底边。没有声音、开机启动、跨屏拖动、网络和鼠标轨迹记录。
+按 `Alt+1` 切换接鸟手型，靠近鸟脚停留后抬脚上手；按 `Alt+2` 切换摸头手型，靠近头部会低头并接受抚摸。按住 Alt 再按 Esc 下方的反引号／`·` 键恢复鼠标。鸟站在手上时换手或退出手型，会飞往最近的有效落点。
 
-设置文件位于 `%LOCALAPPDATA%\DesktopCock\settings.json`。改变尺寸后会写入包含所有行为参数的设置；退出程序后可手动调整，再启动生效。无效配置会恢复默认值并在同目录 `error.log` 留下说明。
+## 构建
 
-## 构建与测试
-
-安装 .NET 10 SDK，在项目目录执行：
+安装 .NET 10 SDK，在项目根目录执行：
 
 ```powershell
-./tools/build.ps1
-./tools/build.ps1 -Publish
+./tools/build.ps1 -Configuration Debug
+./tools/build.ps1 -Configuration Debug -Publish
+./tools/build.ps1 -Configuration Release -Publish
 ```
 
-脚本优先使用 `%LOCALAPPDATA%\DesktopCock\dotnet` 下的 SDK，否则使用系统 `dotnet`。行为测试是无第三方依赖的控制台测试程序，断言失败返回非零退出码。发布目录为 `dist/DesktopCock-win-x64`，压缩包为 `dist/DesktopCock-win-x64.zip`，自带运行时。
+省略 `-Configuration` 时使用 Release。脚本检查资源并编译；`-Publish` 生成 Windows x64 自包含程序及 ZIP。脚本优先使用 `%LOCALAPPDATA%\DesktopCock\dotnet` 中的 SDK，否则使用系统 `dotnet`。本地行为测试独立运行，不作为源码发布或构建依赖。
 
-退出正在运行的桌宠后，可执行 `DesktopCock.exe --verify`：程序自动检查三种尺寸、左右朝向和十类动作的窗口尺寸、脚底锚点、透明区域及鸟身命中，报告写入程序旁的 `verification/desktop.json`，随后退出。该检查不注入鼠标点击或修改系统设置。
+两种配置分别输出至 `dist/DesktopCock-win-x64-Debug`、`dist/DesktopCock-win-x64-Release`，发布从干净暂存目录生成。Release 在编译阶段排除诊断实现，正式飞行、GPU 感知、换色和错误日志均保留。
 
-执行 `./tools/soak.ps1 -Minutes 30` 记录真实运行期间的内存、句柄和 CPU；记录保存在 `artifacts`，结束后保留桌宠运行。它与行为测试里的“30 分钟模拟时间”是两种不同的检查。
+## 项目目录
 
-## 结构与美术
+| 目录 | 当前职责 |
+| --- | --- |
+| `src/DesktopCock.Core` | 纯 .NET 模型、语义交互、决策策略、动作状态机、运动与运行协调 |
+| `src/DesktopCock` | WPF 表现、输入、屏幕感知、Windows 接口、配置及 Debug 诊断 |
+| `art/model` | 统一角色源图、尺度声明、三视图及角度预览 |
+| `art/actions` | 动作源素材、唯一动画声明、生成引用文档与维护流程 |
+| `art/skins` | 配色与逐帧换色区域声明 |
+| `art/previews` | 本地生成的动作、步态和配色预览，不纳入源码发布 |
+| `art/archive` | 本地源素材备份，不纳入源码发布 |
+| `docs` | 架构、行为、使用与调试说明 |
+| `tools` | 构建、资源生成、一致性检查及运行采样 |
+| `tests` | 本地行为测试；不纳入源码发布和程序包 |
+| `artifacts` | 本地验证脚本和产物；不纳入源码发布和程序包 |
+| `dist` | 按配置隔离的发布目录和 ZIP |
 
-- `src/DesktopCock.Core`：不依赖 UI 的行为状态机，时间、电脑空闲时长及输入由外部注入，可固定随机种子。
-- `src/DesktopCock`：WPF 透明窗口、Windows 桌面接口、托盘和观察室。
-- `Assets/animations.json`：帧时长、循环、脚底锚点及头/身/脚交互区域。
-- `art/cockatiel-atlas.png`：通过 OpenAI imagegen 生成的原始美术图集。
-- `tools/prepare_assets.py`：用 Pillow 切分、最近邻缩小和对齐，生成 16 张 64×64 PNG、图标和预览。修改原图后可重新运行。
+行为采用独立决策层与动作状态机，Core 不引用 WPF、Windows API 或动画资源。表现层读取只读快照；转身按连续进度选帧，走路按实际位移驱动步态。手型会话负责注意力、上手与离手；手套素材通过构建链接到 Assets/Hands，直接复用 art/interaction/hands 中选定的两张 pixel-v2 源图。
 
-关键姿势用于原型验证，左右方向通过镜像共用；后续可以直接在动画清单补充中间帧。
+## 资源维护
 
-## 手工验收
+`art/model/model-sheet.png` 是闲置、回头和转身角度的统一造型来源；`model.json` 声明共同尺度。其他动作的实际源图、整帧复用、局部合成、缩放基准及人工复核依赖以引用清单为准。
 
-在不同 Windows 桌面配置下检查：透明区域点击穿透、摸头不抢键盘焦点、任务栏可点击；100/125/150/200% 显示缩放；任务栏自动隐藏/出现、Explorer 重启、分辨率变化、全屏进入退出、睡眠恢复。长期运行检查见 `VALIDATION.md`。未完成的环境覆盖不视为已通过。
+动画片段的唯一可编辑来源是 `art/actions/asset-bindings.json` 的 `clips`。生成器输出 `src/DesktopCock/Assets/animations.json`、帧图、换色映射、预览及引用文档。当前包含 62 张帧、22 个片段、3 套羽色；地面帧为 64×64，飞行帧为 96×96。接近竖直的起落使用正面飞行动画，横向飞行使用侧面；翼下按原始灰成年雄性玄凤的灰色层次绘制。
+
+修改源图或声明后，安装 Python 与 Pillow，并执行：
+
+```powershell
+python tools/prepare_assets.py
+./tools/build.ps1 -Configuration Release
+```
+
+基准变化时，先人工复核独立变体和眼睛／鸟喙换色区域，再更新相应审核哈希。构建只验证源文件、导出资源和生成文档的一致性，不自动生成或刷新审核记录。
+
+- [架构与扩展边界](docs/ARCHITECTURE.md)
+- [默认行为规则](docs/BEHAVIOR.md)
+- [资源维护流程](art/actions/ASSET_MANAGEMENT.md)与[生成引用清单](art/actions/ANIMATION_REFERENCES.md)
+- [统一造型规范](art/model/README.md)与[羽色维护](art/skins/README.md)
+
+文档按当前实现维护：功能被完整替代时更新原说明并移除过时结论，不在使用和验收文档中叠加旧版本记录。源素材备份、尚在使用的生成提示词和本地验证产物独立保留。

@@ -3,9 +3,28 @@
     <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework>
     <UseWPF>true</UseWPF><UseWindowsForms>true</UseWindowsForms><ImplicitUsings>disable</ImplicitUsings><Nullable>enable</Nullable>
     <ApplicationManifest>app.manifest</ApplicationManifest><AssemblyName>DesktopCock</AssemblyName>
-    <ApplicationIcon>Assets/pet.ico</ApplicationIcon><Version>0.1.0</Version>
+    <ApplicationIcon>Assets/pet.ico</ApplicationIcon><Version>0.2.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup><ProjectReference Include="../DesktopCock.Core/DesktopCock.Core.csproj" />
     <Content Include="Assets/**" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../art/interaction/hands/glove-perch-pixel-v2.png;../../art/interaction/hands/glove-pet-pixel-v2.png"
+             Link="Assets/Hands/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="ThirdParty/**" CopyToOutputDirectory="PreserveNewest" />
+    <EmbeddedResource Include="Perception/Shaders/*.hlsl" />
+    <PackageReference Include="Vortice.Direct3D11" Version="3.8.3" />
+    <PackageReference Include="Vortice.D3DCompiler" Version="3.8.3" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Diagnostics/PetWindow.Verification.cs;Diagnostics/Native.Diagnostics.cs" />
+    <None Remove="Diagnostics/PetWindow.Verification.cs;Diagnostics/Native.Diagnostics.cs" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)' != 'Debug'">
+    <Compile Remove="Diagnostics/**/*.cs" />
+    <None Remove="Diagnostics/**" />
+  </ItemGroup>
+  <Target Name="VerifyGeneratedAssets" BeforeTargets="BeforeBuild">
+    <Exec Command="powershell -NoProfile -ExecutionPolicy Bypass -File &quot;$(MSBuildProjectDirectory)\..\..\tools\check_assets.ps1&quot;" />
+  </Target>
 </Project>

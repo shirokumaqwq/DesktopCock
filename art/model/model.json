@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "source": "art/model/model-sheet.png",
+  "columns": 3,
+  "rows": 2,
+  "views": ["side", "front", "back", "quarter", "front-blink", "rear"],
+  "scaleReference": "side",
+  "standingHeight": 41,
+  "foot": [32, 56],
+  "blinkPatches": [[26, 29, 30, 33], [35, 29, 39, 33]],
+  "bindings": {
+    "idle": { "view": "side", "action": "Idle" },
+    "idle-quarter": { "view": "quarter", "action": "Idle" },
+    "idle-front": { "view": "front", "action": "Idle" },
+    "idle-front-blink": { "view": "front-blink", "action": "Idle" },
+    "look-back": { "view": "rear", "action": "Look" }
+  }
+}

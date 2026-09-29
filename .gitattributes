@@ -1,4 +1,25 @@
-* text=auto eol=lf
-*.png binary
-*.ico binary
-*.zip binary
+# Preserve exact bytes for files referenced by asset SHA256 manifests.
+/art/actions/ANIMATION_REFERENCES.md -text
+/art/actions/asset-bindings.json -text
+/art/actions/beg.png -text
+/art/actions/bite.png -text
+/art/actions/flight-front.png -text
+/art/actions/flight.png -text
+/art/actions/lift.png -text
+/art/actions/look.png -text
+/art/actions/pet.png -text
+/art/actions/sing.png -text
+/art/actions/sleep.png -text
+/art/actions/stretch.png -text
+/art/actions/turn.png -text
+/art/actions/walk-rig.png -text
+/art/model/model-sheet.png -text
+/art/model/model.json -text
+/art/skins/palettes.json -text
+/art/skins/regions.json -text
+/src/DesktopCock/Assets/skins.json -text
+/tools/asset_catalog.py -text
+/tools/normalize_palette.py -text
+/tools/prepare_assets.py -text
+/tools/prepare_model.py -text
+/tools/prepare_skins.py -text
